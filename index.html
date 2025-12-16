@@ -148,11 +148,80 @@
         
         /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 { font-size: 28px; }
+            body { font-size: 16px; }
+            .hero h1 { font-size: 26px; }
+            .hero p { font-size: 16px; }
+            .hero { padding: 40px 15px; }
+            .hero-stats { gap: 25px; }
+            .stat-num { font-size: 26px; }
             .toc ul { columns: 1; }
+            .toc { padding: 20px; }
             .pros-cons { grid-template-columns: 1fr; }
             .footer-grid { grid-template-columns: 1fr; }
-            article h2 { font-size: 24px; }
+            article h2 { font-size: 22px; margin: 35px 0 15px; }
+            article h3 { font-size: 19px; }
+            article { padding: 30px 0; }
+            .container, .container-wide { padding: 0 15px; }
+            .nav-links { display: none; }
+            .info-box, .key-takeaway { padding: 15px 18px; }
+            .key-takeaway p { font-size: 16px; }
+            table { font-size: 13px; }
+            th, td { padding: 10px 8px; }
+            .product-card { padding: 20px; }
+            .product-card h4 { font-size: 17px; }
+            .product-specs { gap: 5px; }
+            .spec { font-size: 11px; padding: 3px 8px; }
+            .cta-btn { width: 100%; justify-content: center; padding: 14px 20px; }
+            .product-footer { flex-direction: column; align-items: stretch; }
+            .expand-header { padding: 15px; }
+            .expand-header h4 { font-size: 15px; }
+            .expand-body-inner { padding: 15px; }
+            .faq-q { font-size: 15px; padding: 15px 0; }
+        }
+        
+        /* Skip to Products Button */
+        .skip-to-products {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 15px;
+            position: sticky;
+            top: 52px;
+            z-index: 99;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+        .skip-to-products:hover {
+            background: linear-gradient(135deg, var(--primary-dark), #c44a1a);
+        }
+        .skip-to-products svg {
+            width: 18px;
+            height: 18px;
+        }
+        @media (min-width: 769px) {
+            .skip-to-products {
+                top: 54px;
+            }
+        }
+        
+        /* Mobile menu button */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px;
+        }
+        @media (max-width: 768px) {
+            .mobile-menu-btn { display: block; }
         }
     </style>
 </head>
@@ -170,9 +239,16 @@
                 <a href="#products">Products</a>
                 <a href="#faq">FAQ</a>
             </div>
+            <button class="mobile-menu-btn" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">☰</button>
         </nav>
     </div>
 </header>
+
+<!-- Skip to Products Bar -->
+<a href="#products" class="skip-to-products">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
+    Skip to Product Recommendations →
+</a>
 
 <section class="hero">
     <div class="container">
@@ -192,6 +268,12 @@
         <!-- Table of Contents -->
         <nav class="toc">
             <h3>📖 In This Guide</h3>
+            <div style="margin-bottom: 15px;">
+                <a href="#products" style="display: inline-flex; align-items: center; gap: 8px; background: var(--primary); color: white; padding: 10px 18px; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 14px;">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
+                    Jump to Product Picks
+                </a>
+            </div>
             <ul>
                 <li><a href="#what-is">What Is a Portable Dryer?</a></li>
                 <li><a href="#who-needs">Who Actually Needs One?</a></li>
@@ -1123,8 +1205,9 @@
             <!-- 4. Panda Dryer (original link) -->
             <div class="product-card">
                 <span class="product-badge">Most Popular</span>
-                <h4>Panda Portable Clothes Dryer</h4>
+                <h4>Panda 3.5 Cu. Ft. Portable Clothes Dryer</h4>
                 <div class="product-specs">
+                    <span class="spec">3.5 Cu. Ft.</span>
                     <span class="spec">110V</span>
                     <span class="spec">Compact Design</span>
                     <span class="spec">Wall Mountable</span>

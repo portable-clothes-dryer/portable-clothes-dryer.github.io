@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Portable Clothes Dryers 2025 | Complete Guide for Apartments, RVs & Travel</title>
     <meta name="description" content="Comprehensive guide to portable clothes dryers. Learn how they work, who needs one, installation tips, and compare 45+ models. Expert advice for apartments, RVs, dorms.">
-    <meta name="keywords" content="portable clothes dryer, compact dryer 110V, apartment dryer no hookups, how portable dryers work, best portable dryer">
     <link rel="canonical" href="https://portable-clothes-dryer.github.io/">
-    <meta property="og:title" content="Complete Portable Clothes Dryer Guide 2025">
-    <meta property="og:description" content="Everything you need to know about portable dryers - how they work, who needs one, and which to buy.">
-    <meta property="og:url" content="https://portable-clothes-dryer.github.io/">
     <style>
         :root {
             --primary: #ff6b35;
@@ -18,7 +14,6 @@
             --accent: #2b6cb0;
             --light: #f7fafc;
             --gray: #718096;
-            --success: #38a169;
             --text: #2d3748;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -27,201 +22,157 @@
         .container-wide { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
         
         /* Header */
-        header { background: var(--secondary); padding: 15px 0; position: sticky; top: 0; z-index: 100; }
+        header { background: var(--secondary); padding: 12px 0; position: sticky; top: 0; z-index: 1000; }
         .nav { display: flex; justify-content: space-between; align-items: center; }
         .logo { color: white; font-size: 18px; font-weight: 700; text-decoration: none; }
         .logo span { color: var(--primary); }
         .nav-links { display: flex; gap: 20px; }
         .nav-links a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; }
         
+        /* Mobile Menu */
+        .menu-btn { display: none; background: var(--primary); border: none; color: white; padding: 10px 15px; border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer; }
+        .mobile-nav { display: none; background: #0d1f33; padding: 0; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+        .mobile-nav.show { display: block; max-height: 500px; padding: 15px 20px; }
+        .mobile-nav a { display: block; color: white; text-decoration: none; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 16px; }
+        .mobile-nav a:last-child { border-bottom: none; }
+        .mobile-nav a.highlight { color: var(--primary); font-weight: 700; }
+        
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .menu-btn { display: block; }
+        }
+        
+        /* Skip Bar */
+        .skip-bar { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); text-align: center; }
+        .skip-bar a { display: block; color: white; text-decoration: none; padding: 12px 20px; font-weight: 700; font-size: 14px; }
+        
         /* Hero */
-        .hero { background: linear-gradient(135deg, var(--secondary) 0%, #2c5282 100%); color: white; padding: 60px 20px; text-align: center; }
-        .hero h1 { font-size: 38px; margin-bottom: 15px; line-height: 1.2; }
-        .hero p { font-size: 18px; opacity: 0.9; max-width: 650px; margin: 0 auto; }
-        .hero-stats { display: flex; justify-content: center; gap: 40px; margin-top: 35px; flex-wrap: wrap; }
-        .stat { text-align: center; }
-        .stat-num { font-size: 32px; font-weight: 800; }
-        .stat-label { font-size: 12px; opacity: 0.8; text-transform: uppercase; letter-spacing: 1px; }
+        .hero { background: linear-gradient(135deg, var(--secondary) 0%, #2c5282 100%); color: white; padding: 50px 20px; text-align: center; }
+        .hero h1 { font-size: 32px; margin-bottom: 15px; line-height: 1.2; }
+        .hero p { font-size: 17px; opacity: 0.9; max-width: 650px; margin: 0 auto; }
+        .hero-stats { display: flex; justify-content: center; gap: 30px; margin-top: 30px; flex-wrap: wrap; }
+        .stat-num { font-size: 28px; font-weight: 800; display: block; }
+        .stat-label { font-size: 11px; opacity: 0.8; text-transform: uppercase; }
         
-        /* Table of Contents */
-        .toc { background: var(--light); border-left: 4px solid var(--primary); padding: 25px 30px; margin: 40px 0; border-radius: 0 8px 8px 0; }
-        .toc h3 { font-size: 18px; margin-bottom: 15px; color: var(--secondary); }
-        .toc ul { list-style: none; columns: 2; column-gap: 30px; }
-        .toc li { margin: 8px 0; }
-        .toc a { color: var(--accent); text-decoration: none; font-size: 15px; }
-        .toc a:hover { text-decoration: underline; }
-        
-        /* Article Content */
-        article { padding: 50px 0; }
-        article h2 { font-size: 28px; color: var(--secondary); margin: 50px 0 20px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
+        /* Article */
+        article { padding: 40px 0; }
+        article h2 { font-size: 26px; color: var(--secondary); margin: 45px 0 18px; padding-bottom: 10px; border-bottom: 2px solid #e2e8f0; }
         article h2:first-of-type { margin-top: 0; }
-        article h3 { font-size: 22px; color: var(--secondary); margin: 35px 0 15px; }
-        article h4 { font-size: 18px; color: var(--text); margin: 25px 0 12px; }
-        article p { margin-bottom: 18px; }
+        article h3 { font-size: 20px; color: var(--secondary); margin: 30px 0 12px; }
+        article p { margin-bottom: 16px; }
         article ul, article ol { margin: 15px 0 20px 25px; }
-        article li { margin: 8px 0; }
+        article li { margin: 6px 0; }
+        
+        /* TOC */
+        .toc { background: var(--light); border-left: 4px solid var(--primary); padding: 20px 25px; margin: 30px 0; border-radius: 0 8px 8px 0; }
+        .toc h3 { font-size: 17px; margin-bottom: 12px; color: var(--secondary); }
+        .toc ul { list-style: none; columns: 2; column-gap: 25px; }
+        .toc li { margin: 6px 0; }
+        .toc a { color: var(--accent); text-decoration: none; font-size: 14px; }
+        .jump-btn { display: inline-block; background: var(--primary); color: white; padding: 10px 18px; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 14px; margin-bottom: 15px; }
+        
+        /* Read More Sections */
+        .more-content { display: none; }
+        .more-content.show { display: block; }
+        .more-btn { display: inline-block; background: #edf2f7; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--secondary); margin: 10px 0 20px; }
+        .more-btn:hover { background: #e2e8f0; }
         
         /* Info Boxes */
-        .info-box { background: #ebf8ff; border-left: 4px solid var(--accent); padding: 20px 25px; margin: 25px 0; border-radius: 0 8px 8px 0; }
+        .info-box { background: #ebf8ff; border-left: 4px solid var(--accent); padding: 18px 22px; margin: 20px 0; border-radius: 0 8px 8px 0; }
         .info-box.warning { background: #fffaf0; border-color: #dd6b20; }
-        .info-box.success { background: #f0fff4; border-color: var(--success); }
-        .info-box h4 { margin-top: 0; color: var(--secondary); }
+        .info-box h4 { margin: 0 0 8px; color: var(--secondary); font-size: 16px; }
+        .info-box p { margin: 0; }
         
         /* Key Takeaway */
-        .key-takeaway { background: linear-gradient(135deg, var(--secondary), var(--accent)); color: white; padding: 25px 30px; border-radius: 12px; margin: 30px 0; }
-        .key-takeaway h4 { margin: 0 0 10px; font-size: 16px; opacity: 0.9; }
-        .key-takeaway p { margin: 0; font-size: 18px; font-weight: 500; }
+        .key-point { background: linear-gradient(135deg, var(--secondary), var(--accent)); color: white; padding: 20px 25px; border-radius: 10px; margin: 25px 0; }
+        .key-point h4 { margin: 0 0 8px; font-size: 15px; opacity: 0.9; }
+        .key-point p { margin: 0; font-size: 17px; font-weight: 500; }
         
-        /* Comparison Tables */
-        .table-wrap { overflow-x: auto; margin: 25px 0; }
-        table { width: 100%; border-collapse: collapse; font-size: 15px; }
-        th { background: var(--secondary); color: white; padding: 12px 15px; text-align: left; font-weight: 600; }
-        td { padding: 12px 15px; border-bottom: 1px solid #e2e8f0; }
-        tr:hover td { background: #f7fafc; }
+        /* Tables */
+        .table-wrap { overflow-x: auto; margin: 20px 0; }
+        table { width: 100%; border-collapse: collapse; font-size: 14px; }
+        th { background: var(--secondary); color: white; padding: 10px 12px; text-align: left; }
+        td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; }
         
-        /* Expandable Sections */
-        .expand-section { background: white; border: 1px solid #e2e8f0; border-radius: 8px; margin: 15px 0; overflow: hidden; }
-        .expand-header { padding: 18px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: #f7fafc; }
-        .expand-header:hover { background: #edf2f7; }
-        .expand-header h4 { margin: 0; font-size: 16px; }
-        .expand-icon { font-size: 20px; color: var(--accent); transition: transform 0.3s; }
-        .expand-section.open .expand-icon { transform: rotate(45deg); }
-        .expand-body { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
-        .expand-section.open .expand-body { max-height: 2000px; }
-        .expand-body-inner { padding: 20px; border-top: 1px solid #e2e8f0; }
-        
-        /* Product Cards */
-        .products-section { background: var(--light); padding: 50px 0; margin-top: 50px; }
-        .product-grid { display: grid; gap: 25px; }
-        .product-card { background: white; border: 2px solid #e2e8f0; border-radius: 12px; padding: 25px; transition: all 0.3s; }
-        .product-card:hover { border-color: var(--primary); box-shadow: 0 8px 30px rgba(255,107,53,0.12); }
-        .product-badge { display: inline-block; background: var(--primary); color: white; padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; }
-        .product-card h4 { color: var(--secondary); font-size: 18px; margin: 0 0 10px; }
-        .product-specs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
-        .spec { background: #edf2f7; padding: 4px 10px; border-radius: 15px; font-size: 12px; font-weight: 600; color: var(--secondary); }
-        .product-card > p { font-size: 15px; color: #4a5568; margin-bottom: 15px; }
-        .product-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 15px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 12px; }
-        .product-price { font-size: 26px; font-weight: 800; color: var(--secondary); }
-        .prime { background: #232f3e; color: #ff9900; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; margin-left: 8px; }
-        .cta-btn { display: inline-flex; align-items: center; gap: 6px; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 22px; border-radius: 25px; text-decoration: none; font-weight: 700; font-size: 13px; transition: all 0.3s; box-shadow: 0 4px 15px rgba(255,107,53,0.3); }
-        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.4); }
-        .cta-btn svg { width: 16px; height: 16px; }
-        
-        /* Read More */
-        .read-more { margin-top: 12px; }
-        .read-more-content { max-height: 0; overflow: hidden; transition: max-height 0.3s; }
-        .read-more-content.open { max-height: 500px; }
-        .read-more-content p { margin-top: 12px; font-size: 14px; color: #4a5568; }
-        .read-more-btn { background: #edf2f7; border: none; padding: 6px 14px; border-radius: 15px; cursor: pointer; font-size: 12px; font-weight: 600; color: var(--secondary); }
-        .read-more-btn:hover { background: #e2e8f0; }
-        
-        /* Pros/Cons */
-        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 25px 0; }
-        .pros, .cons { padding: 20px; border-radius: 10px; }
+        /* Pros Cons */
+        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; }
+        .pros, .cons { padding: 18px; border-radius: 8px; }
         .pros { background: #f0fff4; border: 1px solid #9ae6b4; }
         .cons { background: #fffaf0; border: 1px solid #fbd38d; }
-        .pros h4 { color: #276749; margin: 0 0 12px; font-size: 16px; }
-        .cons h4 { color: #975a16; margin: 0 0 12px; font-size: 16px; }
-        .pros li { color: #2f855a; }
-        .cons li { color: #b7791f; }
+        .pros h4 { color: #276749; margin: 0 0 10px; font-size: 15px; }
+        .cons h4 { color: #975a16; margin: 0 0 10px; font-size: 15px; }
+        .pros ul, .cons ul { margin: 0; padding-left: 18px; font-size: 14px; }
+        
+        /* Accordion */
+        .accordion { border: 1px solid #e2e8f0; border-radius: 8px; margin: 12px 0; overflow: hidden; }
+        .acc-header { padding: 15px 18px; background: #f7fafc; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600; font-size: 15px; }
+        .acc-header:hover { background: #edf2f7; }
+        .acc-icon { font-size: 18px; color: var(--accent); transition: transform 0.3s; }
+        .accordion.open .acc-icon { transform: rotate(45deg); }
+        .acc-body { max-height: 0; overflow: hidden; transition: max-height 0.3s; }
+        .accordion.open .acc-body { max-height: 800px; }
+        .acc-body-inner { padding: 18px; border-top: 1px solid #e2e8f0; }
+        .acc-body-inner p { margin-bottom: 12px; }
+        .acc-body-inner p:last-child { margin-bottom: 0; }
+        
+        /* Products */
+        .products-section { background: var(--light); padding: 45px 0; margin-top: 40px; }
+        .products-section h2 { text-align: center; border: none; margin: 0 0 8px; }
+        .products-section > .container-wide > p { text-align: center; color: var(--gray); margin-bottom: 35px; }
+        .product-grid { display: grid; gap: 20px; }
+        .product-card { background: white; border: 2px solid #e2e8f0; border-radius: 10px; padding: 22px; transition: all 0.3s; }
+        .product-card:hover { border-color: var(--primary); box-shadow: 0 5px 25px rgba(255,107,53,0.12); }
+        .badge { display: inline-block; background: var(--primary); color: white; padding: 4px 12px; border-radius: 15px; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px; }
+        .product-card h4 { color: var(--secondary); font-size: 17px; margin: 0 0 10px; }
+        .specs { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+        .spec { background: #edf2f7; padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; color: var(--secondary); }
+        .product-card > p { font-size: 14px; color: #4a5568; margin-bottom: 15px; line-height: 1.7; }
+        .product-more { display: none; margin-bottom: 15px; }
+        .product-more.show { display: block; }
+        .product-more p { font-size: 14px; color: #4a5568; margin-bottom: 10px; line-height: 1.7; }
+        .cta-btn { display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 22px; border-radius: 25px; text-decoration: none; font-weight: 700; font-size: 13px; transition: all 0.3s; }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 20px rgba(255,107,53,0.35); }
         
         /* FAQ */
-        .faq-section { margin: 50px 0; }
         .faq-item { border-bottom: 1px solid #e2e8f0; }
-        .faq-q { width: 100%; padding: 20px 0; background: none; border: none; text-align: left; font-size: 16px; font-weight: 600; color: var(--secondary); cursor: pointer; display: flex; justify-content: space-between; }
-        .faq-icon { color: var(--accent); transition: transform 0.3s; }
+        .faq-q { width: 100%; padding: 18px 0; background: none; border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--secondary); cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-icon { color: var(--accent); font-size: 18px; transition: transform 0.3s; }
         .faq-item.open .faq-icon { transform: rotate(45deg); }
         .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.3s; }
-        .faq-item.open .faq-a { max-height: 300px; }
-        .faq-a p { padding-bottom: 20px; color: #4a5568; }
+        .faq-item.open .faq-a { max-height: 400px; }
+        .faq-a p { padding-bottom: 18px; color: #4a5568; font-size: 15px; }
         
         /* Footer */
-        footer { background: var(--secondary); color: white; padding: 40px 0 20px; margin-top: 50px; }
-        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 30px; }
-        .footer-brand p { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 10px; }
-        footer h4 { font-size: 14px; margin-bottom: 12px; }
+        footer { background: var(--secondary); color: white; padding: 35px 0 20px; margin-top: 40px; }
+        .disclosure { background: rgba(255,255,255,0.05); padding: 12px 15px; border-radius: 6px; margin-bottom: 25px; font-size: 12px; color: rgba(255,255,255,0.7); }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 30px; margin-bottom: 25px; }
+        .footer-brand p { color: rgba(255,255,255,0.7); font-size: 13px; margin-top: 10px; }
+        footer h4 { font-size: 13px; margin-bottom: 10px; }
         .footer-links { list-style: none; }
-        .footer-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 13px; display: block; padding: 3px 0; }
-        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; }
-        .footer-bottom p { color: rgba(255,255,255,0.5); font-size: 12px; margin: 3px 0; }
-        .disclosure { background: rgba(255,255,255,0.05); padding: 15px; border-radius: 6px; margin-bottom: 25px; font-size: 12px; color: rgba(255,255,255,0.7); }
+        .footer-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 12px; display: block; padding: 3px 0; }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; text-align: center; }
+        .footer-bottom p { color: rgba(255,255,255,0.5); font-size: 11px; margin: 2px 0; }
         
-        /* Responsive */
+        /* Mobile */
         @media (max-width: 768px) {
             body { font-size: 16px; }
-            .hero h1 { font-size: 26px; }
-            .hero p { font-size: 16px; }
-            .hero { padding: 40px 15px; }
-            .hero-stats { gap: 25px; }
-            .stat-num { font-size: 26px; }
-            .toc ul { columns: 1; }
-            .toc { padding: 20px; }
-            .pros-cons { grid-template-columns: 1fr; }
-            .footer-grid { grid-template-columns: 1fr; }
-            article h2 { font-size: 22px; margin: 35px 0 15px; }
-            article h3 { font-size: 19px; }
-            article { padding: 30px 0; }
+            .hero h1 { font-size: 24px; }
+            .hero { padding: 35px 15px; }
+            .hero-stats { gap: 20px; }
+            .stat-num { font-size: 24px; }
+            article h2 { font-size: 22px; }
+            article h3 { font-size: 18px; }
+            article { padding: 25px 0; }
             .container, .container-wide { padding: 0 15px; }
-            .nav-links { display: none; }
-            .info-box, .key-takeaway { padding: 15px 18px; }
-            .key-takeaway p { font-size: 16px; }
-            table { font-size: 13px; }
-            th, td { padding: 10px 8px; }
-            .product-card { padding: 20px; }
-            .product-card h4 { font-size: 17px; }
-            .product-specs { gap: 5px; }
-            .spec { font-size: 11px; padding: 3px 8px; }
-            .cta-btn { width: 100%; justify-content: center; padding: 14px 20px; }
-            .product-footer { flex-direction: column; align-items: stretch; }
-            .expand-header { padding: 15px; }
-            .expand-header h4 { font-size: 15px; }
-            .expand-body-inner { padding: 15px; }
-            .faq-q { font-size: 15px; padding: 15px 0; }
-        }
-        
-        /* Skip to Products Button */
-        .skip-to-products {
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            color: white;
-            text-align: center;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 15px;
-            position: sticky;
-            top: 52px;
-            z-index: 99;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-        }
-        .skip-to-products:hover {
-            background: linear-gradient(135deg, var(--primary-dark), #c44a1a);
-        }
-        .skip-to-products svg {
-            width: 18px;
-            height: 18px;
-        }
-        @media (min-width: 769px) {
-            .skip-to-products {
-                top: 54px;
-            }
-        }
-        
-        /* Mobile menu button */
-        .mobile-menu-btn {
-            display: none;
-            background: none;
-            border: none;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 5px;
-        }
-        @media (max-width: 768px) {
-            .mobile-menu-btn { display: block; }
+            .toc ul { columns: 1; }
+            .toc { padding: 15px 18px; }
+            .pros-cons { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; gap: 20px; }
+            table { font-size: 12px; }
+            th, td { padding: 8px 6px; }
+            .product-card { padding: 18px; }
+            .cta-btn { width: 100%; justify-content: center; }
+            .info-box, .key-point { padding: 15px 18px; }
         }
     </style>
 </head>
@@ -239,21 +190,28 @@
                 <a href="#products">Products</a>
                 <a href="#faq">FAQ</a>
             </div>
-            <button class="mobile-menu-btn" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">☰</button>
+            <button class="menu-btn" id="menuBtn">☰ Menu</button>
         </nav>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#what-is">What Is a Portable Dryer?</a>
+        <a href="#who-needs">Who Needs One?</a>
+        <a href="#how-works">How It Works</a>
+        <a href="#types">Types of Dryers</a>
+        <a href="#buying-guide">Buying Guide</a>
+        <a href="#products" class="highlight">⭐ View Products</a>
+        <a href="#faq">FAQ</a>
     </div>
 </header>
 
-<!-- Skip to Products Bar -->
-<a href="#products" class="skip-to-products">
-    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
-    Skip to Product Recommendations →
-</a>
+<div class="skip-bar">
+    <a href="#products">⚡ Skip to Product Recommendations →</a>
+</div>
 
 <section class="hero">
     <div class="container">
         <h1>The Complete Guide to Portable Clothes Dryers</h1>
-        <p>Everything you need to know—from how they work to which one fits your lifestyle. Written by laundry experts for real people.</p>
+        <p>Everything you need to know—from how they work to which one fits your lifestyle.</p>
         <div class="hero-stats">
             <div class="stat"><span class="stat-num">45+</span><span class="stat-label">Models Reviewed</span></div>
             <div class="stat"><span class="stat-num">3</span><span class="stat-label">Dryer Types</span></div>
@@ -265,15 +223,9 @@
 <article>
     <div class="container">
         
-        <!-- Table of Contents -->
         <nav class="toc">
+            <a href="#products" class="jump-btn">⭐ Jump to Product Picks</a>
             <h3>📖 In This Guide</h3>
-            <div style="margin-bottom: 15px;">
-                <a href="#products" style="display: inline-flex; align-items: center; gap: 8px; background: var(--primary); color: white; padding: 10px 18px; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 14px;">
-                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
-                    Jump to Product Picks
-                </a>
-            </div>
             <ul>
                 <li><a href="#what-is">What Is a Portable Dryer?</a></li>
                 <li><a href="#who-needs">Who Actually Needs One?</a></li>
@@ -284,1032 +236,458 @@
                 <li><a href="#installation">Installation & Setup</a></li>
                 <li><a href="#maintenance">Maintenance & Safety</a></li>
                 <li><a href="#products">Top Product Picks</a></li>
-                <li><a href="#faq">Frequently Asked Questions</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
         </nav>
 
-
-        <!-- SECTION 1: What Is a Portable Dryer? -->
+        <!-- SECTION 1 -->
         <h2 id="what-is">What Is a Portable Clothes Dryer?</h2>
         
-        <p>A portable clothes dryer is a compact laundry appliance that plugs into a standard 110V/120V household outlet—the same outlets you use for lamps, televisions, and phone chargers. Unlike traditional full-size dryers that require dedicated 220V/240V electrical circuits and professional installation, portable dryers can be set up by anyone in minutes without an electrician, special permits, or landlord approval.</p>
+        <p>A portable clothes dryer is a compact laundry appliance that plugs into a standard 110V/120V household outlet—the same outlets you use for lamps, televisions, and phone chargers. Unlike traditional full-size dryers that require dedicated 220V/240V electrical circuits, portable dryers can be set up by anyone in minutes.</p>
         
-        <p>The term "portable" is key here. These aren't just smaller versions of regular dryers. They're specifically engineered for flexibility: you can move them between rooms, store them in closets when not in use, take them with you when you move, or even bring them on extended RV trips. Most weigh between 30-70 pounds—light enough for one person to relocate.</p>
+        <button class="more-btn" onclick="toggleMore('what-more', this)">Read More ▼</button>
+        <div class="more-content" id="what-more">
+            <p>The term "portable" is key here. These aren't just smaller versions of regular dryers. They're specifically engineered for flexibility: you can move them between rooms, store them in closets when not in use, take them with you when you move, or even bring them on extended RV trips. Most weigh between 30-70 pounds.</p>
 
-        <div class="key-takeaway">
-            <h4>💡 Key Distinction</h4>
-            <p>If a dryer requires 220V/240V power, it's NOT truly portable—regardless of its size. Always check voltage requirements before purchasing.</p>
+            <div class="key-point">
+                <h4>💡 Key Distinction</h4>
+                <p>If a dryer requires 220V/240V power, it's NOT truly portable—regardless of its size. Always check voltage requirements before purchasing.</p>
+            </div>
+
+            <h3>The Four Defining Characteristics</h3>
+            
+            <p><strong>1. Standard Outlet Operation:</strong> Every portable dryer runs on 110V/120V power. You simply plug it into any grounded three-prong outlet and start drying.</p>
+            
+            <p><strong>2. No Permanent Installation:</strong> Portable dryers sit on floors, counters, or shelves without being bolted down. When you move out, you unplug it and take it with you.</p>
+            
+            <p><strong>3. Flexible Venting:</strong> Most portable tumble dryers vent through a flexible hose that routes to a window. Some models are completely ventless, condensing moisture into a tank instead.</p>
+            
+            <p><strong>4. Compact Footprint:</strong> Portable dryers typically measure 19-27 inches in each dimension—roughly the size of a large microwave or mini-fridge.</p>
+
+            <div class="info-box">
+                <h4>Common Misconception: "Compact" vs. "Portable"</h4>
+                <p>Many retailers use these terms interchangeably, but they're not the same. A "compact" dryer might be physically small but still require 220V power. Always verify voltage before assuming a small dryer is truly portable.</p>
+            </div>
         </div>
 
-        <h3>The Four Defining Characteristics</h3>
-        
-        <p><strong>1. Standard Outlet Operation:</strong> Every portable dryer runs on 110V/120V power. You simply plug it into any grounded three-prong outlet and start drying. No electrical modifications, no special wiring, no waiting for an electrician. This is what makes apartment living without laundry hookups possible.</p>
-        
-        <p><strong>2. No Permanent Installation:</strong> Portable dryers sit on floors, counters, or shelves without being bolted down or hardwired. Many can be wall-mounted if you prefer, but it's optional. When you move out, you unplug it and take it with you—leaving zero modifications behind.</p>
-        
-        <p><strong>3. Flexible Venting:</strong> Most portable tumble dryers vent through a flexible hose that routes to a window (included venting kits make this easy). Some models are completely ventless, condensing moisture into a tank instead. Either way, you won't be cutting holes in walls.</p>
-        
-        <p><strong>4. Compact Footprint:</strong> Portable dryers typically measure 19-27 inches in each dimension—roughly the size of a large microwave or mini-fridge. They're designed to fit in closets, bathrooms, kitchens, or any corner with an outlet and reasonable ventilation.</p>
-
-        <div class="info-box">
-            <h4>Common Misconception: "Compact" vs. "Portable"</h4>
-            <p>Many retailers use these terms interchangeably, but they're not the same. A "compact" dryer might be physically small but still require 220V power—making it unsuitable for standard outlets. Always verify voltage before assuming a small dryer is truly portable. This guide covers only genuine 110V portable units.</p>
-        </div>
-
-        <!-- SECTION 2: Who Needs One? -->
+        <!-- SECTION 2 -->
         <h2 id="who-needs">Who Actually Needs a Portable Dryer?</h2>
         
-        <p>Portable dryers solve real problems for millions of people. While anyone can benefit from the convenience, certain situations make them practically essential. Let's explore who gets the most value from owning one.</p>
+        <p>Portable dryers solve real problems for millions of people. While anyone can benefit from the convenience, certain situations make them practically essential.</p>
 
-        <h3>Apartment Dwellers Without Laundry Hookups</h3>
-        
-        <p>This is the largest market for portable dryers, and for good reason. Millions of apartments—especially older buildings, urban high-rises, and affordable housing—lack dedicated laundry connections. Residents face an uncomfortable choice: use expensive, inconvenient shared facilities, trek to laundromats, or accept perpetually damp clothes on drying racks.</p>
-        
-        <p>A portable dryer eliminates these compromises entirely. You do laundry on your schedule, in your own space, using equipment only you touch. No more racing to claim machines, no more strangers handling your clothes, no more $4-5 per load adding up to hundreds annually.</p>
-        
-        <p>The practical reality: most apartments have at least one outlet near a window (for the vent hose) or can accommodate a ventless model. Even studios and one-bedrooms typically have a closet, bathroom corner, or kitchen area that can host a compact unit.</p>
+        <button class="more-btn" onclick="toggleMore('who-more', this)">Read More ▼</button>
+        <div class="more-content" id="who-more">
+            <h3>Apartment Dwellers Without Laundry Hookups</h3>
+            <p>Millions of apartments lack dedicated laundry connections. A portable dryer eliminates the need for laundromats entirely. You do laundry on your schedule, in your own space, using equipment only you touch.</p>
 
-        <h3>RV, Van Life, and Mobile Living</h3>
-        
-        <p>The explosion of remote work has fueled a mobile living revolution. More people than ever live full-time or part-time in RVs, converted vans, and tiny homes. These spaces demand maximum efficiency from every appliance—and portable dryers deliver exactly that.</p>
-        
-        <p>Power management is critical in mobile living. Portable dryers' 110V operation means they work with standard campground shore power (typically 30-amp service provides about 3,600 watts total). Lower-wattage models (850W) leave ample capacity for other appliances. Some users even run spin dryers (only 300W) from solar/battery systems.</p>
-        
-        <p>Space efficiency matters equally. A 1.5 cu.ft dryer occupies roughly the same footprint as a microwave—tucking easily into RV closets or under-counter spaces. When combined with a portable washer, you have a complete laundry system that travels with you.</p>
+            <h3>RV, Van Life, and Mobile Living</h3>
+            <p>Portable dryers' 110V operation means they work with standard campground shore power. Lower-wattage models (850W) leave ample capacity for other appliances. Some users even run spin dryers (only 300W) from solar/battery systems.</p>
 
-        <h3>College Students in Dorms and Off-Campus Housing</h3>
-        
-        <p>Dorm laundry rooms are notorious: limited machines, inconvenient hours, long waits, and questionable cleanliness. Off-campus apartments often lack hookups or charge premium prices for shared facilities. For students managing tight budgets and demanding schedules, portable dryers offer independence.</p>
-        
-        <p>Important note: Many residence halls prohibit personal dryers due to fire safety concerns. Check your dorm's policies before purchasing. Off-campus housing typically has no such restrictions, and roommates can split the cost for shared benefit.</p>
+            <h3>College Students</h3>
+            <p>Dorm laundry rooms are notorious for long waits and questionable cleanliness. Important note: Check your dorm's policies before purchasing—many residence halls prohibit personal dryers.</p>
 
-        <h3>Frequent Travelers and Business Professionals</h3>
-        
-        <p>Business travelers know the pain: hotel laundry services charge $5-15 per item, turning a week's worth of shirts into a $50+ expense. Bag-style portable dryers solve this elegantly—they fold flat, weigh under 5 pounds, and fit in checked luggage. Hand-wash items in the hotel sink, then dry them overnight in your room.</p>
-        
-        <p>Extended-stay travelers benefit even more. Digital nomads spending weeks or months in Airbnbs and vacation rentals can't always count on laundry facilities. A portable dryer ensures fresh clothes regardless of your accommodation's amenities.</p>
+            <h3>Frequent Travelers</h3>
+            <p>Hotel laundry services charge $5-15 per item. Bag-style portable dryers fold flat, weigh under 5 pounds, and fit in checked luggage. Hand-wash items in the hotel sink, then dry them overnight.</p>
 
-        <h3>Families with Specialized Needs</h3>
-        
-        <p>Even households with full-size dryers sometimes need supplementary drying capability. Cloth diaper families generate 2-3 extra loads weekly that compete for main dryer time. Parents of newborns need to wash tiny clothes frequently without monopolizing the family laundry system. Athletes with sweaty gear need quick turnaround between practices.</p>
-        
-        <p>A dedicated portable dryer handles these overflow needs without disrupting the household's primary laundry routine—and keeps potentially contaminated items (diapers, gym clothes) separate from regular family laundry.</p>
+            <h3>Families with Specialized Needs</h3>
+            <p>Cloth diaper families, parents of newborns, and athletes with sweaty gear all benefit from a dedicated portable dryer that handles overflow without disrupting the main laundry routine.</p>
 
-        <h3>Seniors and Those with Mobility Limitations</h3>
-        
-        <p>Laundromat trips become increasingly difficult as mobility decreases. Even navigating to a building's shared laundry room can present challenges. A portable dryer in the living space—positioned at comfortable height without bending or reaching—enables continued independence in daily laundry tasks.</p>
-        
-        <p>The ability to do small, frequent loads (rather than accumulating heavy baskets) suits users with limited strength or stamina. For seniors aging in place, portable laundry equipment can extend the period of independent living by removing a task that might otherwise require outside assistance.</p>
-
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>🌡️ Climate-Specific Considerations</h4>
-                <span class="expand-icon">+</span>
-            </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>High-Humidity Climates (Gulf Coast, Florida, Pacific Northwest):</strong> Air drying is painfully slow when ambient air is already saturated with moisture. Clothes can take days to dry—and may develop musty odors before they finish. In these environments, mechanical drying isn't just convenient; it's practically mandatory. Vented tumble dryers perform best because they actively remove humid air rather than fighting against already-saturated conditions.</p>
-                    
-                    <p><strong>Dry Desert Climates (Arizona, Nevada):</strong> Low humidity creates ideal air-drying conditions. Clothes hung outdoors can dry within hours. Here, spin dryers offer maximum value—extract water quickly, then let the desert air finish the job for free. You get fast results with minimal energy consumption.</p>
-                    
-                    <p><strong>Cold Winter Climates:</strong> Outdoor drying becomes impossible for months at a time. Indoor air is often extremely dry from heating systems, which actually helps indoor drying—but dedicated equipment still speeds the process significantly. The heat output from dryers becomes welcome supplementary warmth rather than unwanted thermal load.</p>
-                </div>
-            </div>
+            <h3>Seniors and Those with Mobility Limitations</h3>
+            <p>A portable dryer in the living space—positioned at comfortable height—enables continued independence in daily laundry tasks without trips to shared facilities.</p>
         </div>
 
+        <!-- SECTION 3 -->
+        <h2 id="how-works">How Portable Dryers Work: The Science</h2>
+        
+        <p>Understanding how portable dryers remove moisture from clothes helps you choose the right type and use it effectively. At its core, drying clothes requires moving water from fabric into the air, then removing that humid air.</p>
 
-        <!-- SECTION 3: How Portable Dryers Work -->
-        <h2 id="how-works">How Portable Dryers Work: The Science Explained</h2>
-        
-        <p>Understanding how portable dryers actually remove moisture from clothes helps you choose the right type, use it effectively, and troubleshoot problems. Let's demystify the technology behind each dryer category.</p>
+        <button class="more-btn" onclick="toggleMore('how-more', this)">Read More ▼</button>
+        <div class="more-content" id="how-more">
+            <h3>The Physics of Drying</h3>
+            <p><strong>Temperature:</strong> Warmer air holds more moisture than cool air. Heating creates a "moisture gradient" that draws water from damp fabric.</p>
+            <p><strong>Airflow:</strong> Moving air carries moisture away from fabric surfaces. Stagnant air quickly becomes saturated and stops absorbing moisture.</p>
+            <p><strong>Humidity:</strong> Air that's already moisture-laden can't absorb much more. This is why clothes dry slowly on humid days.</p>
 
-        <h3>The Physics of Drying Clothes</h3>
-        
-        <p>At its core, drying clothes is simple: you need to move water from fabric fibers into the surrounding air, then remove that humid air. This happens through evaporation—liquid water absorbs energy and transforms into water vapor. The amount of energy required is substantial: evaporating one pound of water requires approximately 970 BTUs of heat energy.</p>
-        
-        <p>Three factors control evaporation speed:</p>
-        
-        <p><strong>Temperature:</strong> Warmer air holds more moisture than cool air. Heating the air around wet clothes creates a "moisture gradient"—the warm, dry air readily absorbs water vapor from damp fabric. This is why heated dryers work faster than air drying.</p>
-        
-        <p><strong>Airflow:</strong> Moving air carries moisture away from fabric surfaces, making room for more evaporation. Stagnant air quickly becomes saturated and stops absorbing moisture. Good airflow—whether from tumbling, fans, or wind—is essential for efficient drying.</p>
-        
-        <p><strong>Humidity:</strong> Air that's already moisture-laden can't absorb much more. This is why clothes dry slowly on humid days and quickly in dry climates. Dryers either heat air (reducing relative humidity) or exhaust humid air and bring in fresh, drier air.</p>
+            <div class="info-box">
+                <h4>Why 110V Dryers Take Longer Than 220V</h4>
+                <p>A typical 220V dryer draws 3,000-5,000 watts, while 110V portable dryers max out around 1,500 watts. Less power means less heat, which means slower evaporation. This is the trade-off for standard-outlet convenience.</p>
+            </div>
 
-        <div class="info-box">
-            <h4>Why 110V Dryers Take Longer Than 220V</h4>
-            <p>It's pure physics. A typical 220V full-size dryer draws 3,000-5,000 watts, while 110V portable dryers max out around 1,500-1,700 watts (limited by standard circuit amperage). Less power means less heat, which means slower evaporation. A 1,500W portable dryer produces roughly half the heat of a 3,000W full-size unit—so expect proportionally longer cycle times. This isn't a design flaw; it's the trade-off for standard-outlet convenience.</p>
+            <h3>How Tumble Dryers Work</h3>
+            <p>A heating element warms incoming air to 125-140°F. A blower fan pushes heated air through the rotating drum. Humid air exits through the exhaust vent. The lint filter captures loose fibers—cleaning it after every load is critical.</p>
+
+            <h3>How Ventless/Condensing Dryers Work</h3>
+            <p>Humid air passes through a heat exchanger where it's cooled below its dew point. Water vapor condenses into liquid that collects in a reservoir tank. The dehumidified air gets reheated and returned to the drum—no external venting required.</p>
+
+            <h3>How Spin Dryers Work</h3>
+            <p>A perforated drum spins at 2,800-3,200 RPM—double a washing machine's speed. Centrifugal force pushes water out of fabric fibers. No heat involved, so they consume only about 300W. Important: Spin dryers don't fully dry clothes—they're a preparation step that speeds up air drying.</p>
         </div>
 
-        <h3>How Tumble Dryers Work</h3>
-        
-        <p>Tumble dryers—the most common portable type—use a rotating drum and heating element to dry clothes through forced hot air circulation. Here's the process:</p>
-        
-        <p><strong>Step 1: Heating.</strong> An electric heating element (typically 850W-1,700W in portable models) warms incoming air to 125-140°F. Higher wattage means faster heating and hotter air.</p>
-        
-        <p><strong>Step 2: Circulation.</strong> A blower fan pushes heated air through the rotating drum. As clothes tumble, all surfaces are repeatedly exposed to the hot airstream. The tumbling action is crucial—it prevents clothes from balling up and ensures even drying.</p>
-        
-        <p><strong>Step 3: Moisture Absorption.</strong> Warm, dry air passing over damp clothes absorbs water vapor through evaporation. The air becomes humid as it picks up moisture from the fabric.</p>
-        
-        <p><strong>Step 4: Exhaust.</strong> Humid air exits through the exhaust vent, carrying moisture out of the dryer (and ideally, out of your living space through a window). Fresh, dry air enters to continue the cycle.</p>
-        
-        <p><strong>Step 5: Lint Collection.</strong> As clothes tumble, loose fibers (lint) are released. The lint filter captures these particles before they reach the exhaust system. This is why cleaning the lint filter after every load is critical for both performance and safety.</p>
-
-        <h3>How Ventless/Condensing Dryers Work</h3>
-        
-        <p>Ventless dryers use a clever closed-loop system that eliminates the need for external exhaust. Instead of expelling humid air, they condense moisture back into liquid water:</p>
-        
-        <p><strong>The Condensing Process:</strong> Humid air from the drum passes through a heat exchanger where it's cooled below its dew point. When air cools enough, it can no longer hold its moisture—water vapor condenses into liquid droplets, just like moisture forming on a cold glass.</p>
-        
-        <p><strong>Water Collection:</strong> Condensed water collects in a reservoir tank (typically 1-2 gallons capacity). You empty this tank periodically—usually after each load or two. Some models offer drain hose connections for continuous drainage.</p>
-        
-        <p><strong>Air Recirculation:</strong> The now-dehumidified air gets reheated and returned to the drum. This closed loop means no external venting required—a significant advantage for apartments without window access or landlords who prohibit modifications.</p>
-        
-        <p><strong>Trade-offs:</strong> Condensing technology adds complexity and cost. These dryers typically run longer than vented models (the condensing process is less efficient than direct exhaust). They also release some heat into the room, which can be problematic in warm weather but beneficial in winter.</p>
-
-        <h3>How Spin Dryers Work</h3>
-        
-        <p>Spin dryers are fundamentally different—they don't use heat at all. Instead, they extract water through extreme centrifugal force:</p>
-        
-        <p><strong>High-Speed Rotation:</strong> A perforated drum spins at 2,800-3,200 RPM—roughly double the speed of a washing machine's spin cycle (typically 800-1,400 RPM). At these speeds, centrifugal force becomes powerful enough to physically push water out of fabric fibers.</p>
-        
-        <p><strong>Mechanical Extraction:</strong> Water is forced outward through the drum's holes, where it collects and drains away by gravity. A typical 3-5 minute cycle extracts 70-80% of the water in clothes—far more than any washing machine achieves.</p>
-        
-        <p><strong>No Heat Involved:</strong> Because spin dryers don't use heating elements, they consume very little electricity (typically 300W). They're also completely gentle on fabrics—no heat damage, no shrinkage risk, no color fading from thermal stress.</p>
-        
-        <p><strong>Important Limitation:</strong> Spin dryers don't fully dry clothes. Items emerge damp (not dripping wet, but definitely not ready to wear). They're designed as a preparation step that dramatically speeds up subsequent air drying or tumble drying—not as a complete drying solution.</p>
-
-        <h3>How Bag/Portable Dryers Work</h3>
-        
-        <p>Bag dryers (also called wardrobe dryers or foldable dryers) take the gentlest approach—warm air circulation without any tumbling:</p>
-        
-        <p><strong>Setup:</strong> A fabric enclosure (the "bag") attaches to a base unit containing a heating element and fan. Clothes hang on internal racks, hooks, or hangers inside the bag.</p>
-        
-        <p><strong>Warm Air Flow:</strong> The base unit heats air (typically to 130-150°F) and pushes it upward through the enclosure. Warm air circulates around hanging garments, gradually evaporating moisture through convection.</p>
-        
-        <p><strong>Passive Drying:</strong> Unlike tumble dryers, there's no mechanical action. Clothes hang stationary while warm air flows past them. This makes bag dryers exceptionally gentle—perfect for delicates that would be damaged by tumbling.</p>
-        
-        <p><strong>Ventilation:</strong> Most bag dryers have small vents at the top to release humid air. The moisture enters your room's air (raising humidity slightly) rather than being ducted outside. This makes them suitable for any location but less ideal in already-humid environments.</p>
-
-        <!-- SECTION 4: The 3 Types Explained -->
-        <h2 id="types">The 3 Types of Portable Dryers Explained</h2>
+        <!-- SECTION 4 -->
+        <h2 id="types">The 3 Types of Portable Dryers</h2>
         
         <p>Each portable dryer type serves different needs. Understanding their strengths and limitations helps you choose wisely.</p>
 
         <h3>Type 1: Compact Tumble Dryers</h3>
+        <p>Miniaturized versions of traditional dryers. They deliver fully dry, ready-to-wear clothes. Capacity ranges from 1.5-3.5 cu.ft (5-26 lbs per load). Most require window venting.</p>
         
-        <p>Compact tumble dryers are miniaturized versions of traditional household dryers. They deliver the most familiar drying experience—load clothes, set the timer, retrieve dry garments ready to fold and wear.</p>
-
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th>Specification</th>
-                    <th>Range</th>
-                    <th>What It Means</th>
-                </tr>
-                <tr>
-                    <td>Capacity</td>
-                    <td>1.5 - 3.5 cu.ft</td>
-                    <td>5-26 lbs of wet clothes per load</td>
-                </tr>
-                <tr>
-                    <td>Wattage</td>
-                    <td>850W - 1,700W</td>
-                    <td>Higher = faster drying, more electricity</td>
-                </tr>
-                <tr>
-                    <td>Drying Time</td>
-                    <td>40-90 minutes</td>
-                    <td>Varies by load size and wattage</td>
-                </tr>
-                <tr>
-                    <td>Venting</td>
-                    <td>Most require window venting</td>
-                    <td>Some ventless models available</td>
-                </tr>
-                <tr>
-                    <td>Weight</td>
-                    <td>40-70 lbs</td>
-                    <td>Moveable but not easily portable</td>
-                </tr>
-                <tr>
-                    <td>Price Range</td>
-                    <td>$199 - $399</td>
-                    <td>Higher capacity/features cost more</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="pros-cons">
-            <div class="pros">
-                <h4>✓ Advantages</h4>
-                <ul>
-                    <li>Produces fully dry, warm, ready-to-wear clothes</li>
-                    <li>Largest capacity among portable options</li>
-                    <li>Handles all fabric types including heavy items</li>
-                    <li>Familiar operation—zero learning curve</li>
-                    <li>Advanced features available (sensor dry, anti-wrinkle)</li>
-                    <li>Wall-mountable options save floor space</li>
-                </ul>
+        <button class="more-btn" onclick="toggleMore('tumble-more', this)">Read More ▼</button>
+        <div class="more-content" id="tumble-more">
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>✓ Advantages</h4>
+                    <ul>
+                        <li>Produces fully dry, warm clothes</li>
+                        <li>Largest capacity among portable options</li>
+                        <li>Handles all fabric types</li>
+                        <li>Familiar operation</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>⚠ Considerations</h4>
+                    <ul>
+                        <li>Most require window venting</li>
+                        <li>Heaviest option (40-70 lbs)</li>
+                        <li>Highest energy consumption</li>
+                        <li>Lint filter requires cleaning</li>
+                    </ul>
+                </div>
             </div>
-            <div class="cons">
-                <h4>⚠ Considerations</h4>
-                <ul>
-                    <li>Most models require window venting</li>
-                    <li>Heaviest portable option (40-70 lbs)</li>
-                    <li>Highest energy consumption</li>
-                    <li>Longer cycles than full-size 220V dryers</li>
-                    <li>Lint filter requires cleaning after every load</li>
-                    <li>Heat output can warm small spaces</li>
-                </ul>
-            </div>
+            <p><strong>Best For:</strong> Primary everyday drying needs. Apartment dwellers who want complete, traditional drying capability.</p>
         </div>
-
-        <p><strong>Best For:</strong> Primary everyday drying needs. Apartment dwellers who want complete, traditional drying capability. Families needing substantial capacity. Anyone who values the convenience of loading wet clothes and retrieving them fully dry.</p>
 
         <h3>Type 2: Portable Bag Dryers</h3>
+        <p>Prioritize ultimate portability and gentleness. They fold flat, weigh under 5 lbs, and fit in luggage. Use warm air circulation without tumbling.</p>
         
-        <p>Bag dryers prioritize ultimate portability and gentleness over speed and capacity. They're the only option that truly fits in a suitcase.</p>
-
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th>Specification</th>
-                    <th>Range</th>
-                    <th>What It Means</th>
-                </tr>
-                <tr>
-                    <td>Capacity</td>
-                    <td>6-15 items</td>
-                    <td>1-2 days of clothes for one person</td>
-                </tr>
-                <tr>
-                    <td>Wattage</td>
-                    <td>600W - 1,000W</td>
-                    <td>Lower power, longer drying</td>
-                </tr>
-                <tr>
-                    <td>Drying Time</td>
-                    <td>60-180+ minutes</td>
-                    <td>Depends on fabric weight and humidity</td>
-                </tr>
-                <tr>
-                    <td>Venting</td>
-                    <td>Not required</td>
-                    <td>Use anywhere with an outlet</td>
-                </tr>
-                <tr>
-                    <td>Weight</td>
-                    <td>2-8 lbs</td>
-                    <td>Fits in luggage, highly portable</td>
-                </tr>
-                <tr>
-                    <td>Price Range</td>
-                    <td>$39 - $99</td>
-                    <td>Most affordable dryer type</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="pros-cons">
-            <div class="pros">
-                <h4>✓ Advantages</h4>
-                <ul>
-                    <li>Extremely portable—most under 5 lbs</li>
-                    <li>No venting needed—use in any room</li>
-                    <li>Gentlest option for delicates</li>
-                    <li>Low purchase cost ($40-100)</li>
-                    <li>UV sanitizing available on some models</li>
-                    <li>Folds flat for storage or travel</li>
-                </ul>
+        <button class="more-btn" onclick="toggleMore('bag-more', this)">Read More ▼</button>
+        <div class="more-content" id="bag-more">
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>✓ Advantages</h4>
+                    <ul>
+                        <li>Extremely portable—most under 5 lbs</li>
+                        <li>No venting needed</li>
+                        <li>Gentlest option for delicates</li>
+                        <li>Low cost ($40-100)</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>⚠ Considerations</h4>
+                    <ul>
+                        <li>Long drying times (1-3+ hours)</li>
+                        <li>Small capacity (6-15 items)</li>
+                        <li>Not effective for heavy fabrics</li>
+                        <li>Adds humidity to room</li>
+                    </ul>
+                </div>
             </div>
-            <div class="cons">
-                <h4>⚠ Considerations</h4>
-                <ul>
-                    <li>Long drying times (1-3+ hours)</li>
-                    <li>Small capacity (6-15 items)</li>
-                    <li>Not effective for heavy fabrics</li>
-                    <li>Clothes don't come out warm</li>
-                    <li>Adds humidity to room</li>
-                    <li>Struggles in already-humid environments</li>
-                </ul>
-            </div>
+            <p><strong>Best For:</strong> Travelers, delicates, and extremely space-constrained situations.</p>
         </div>
-
-        <p><strong>Best For:</strong> Travelers who want to avoid hotel laundry fees. Delicate items that shouldn't be tumbled (silk, wool, lingerie). Supplementary drying for items you'd otherwise lay flat. Extremely space-constrained situations where storing a tumble dryer isn't possible.</p>
 
         <h3>Type 3: Spin Dryers</h3>
+        <p>Specialists that extract water through extreme centrifugal force—no heat involved. Only 300W consumption makes them viable for solar/battery systems.</p>
         
-        <p>Spin dryers are the specialists—they do one thing (extract water) exceptionally well. They're best understood as laundry accelerators rather than complete drying solutions.</p>
-
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th>Specification</th>
-                    <th>Range</th>
-                    <th>What It Means</th>
-                </tr>
-                <tr>
-                    <td>Capacity</td>
-                    <td>18-22 lbs</td>
-                    <td>Handles full washer loads</td>
-                </tr>
-                <tr>
-                    <td>Speed</td>
-                    <td>2,800-3,200 RPM</td>
-                    <td>2x faster than washer spin cycles</td>
-                </tr>
-                <tr>
-                    <td>Cycle Time</td>
-                    <td>2-5 minutes</td>
-                    <td>Extremely fast extraction</td>
-                </tr>
-                <tr>
-                    <td>Power</td>
-                    <td>~300W</td>
-                    <td>Very low energy consumption</td>
-                </tr>
-                <tr>
-                    <td>Result</td>
-                    <td>Damp clothes</td>
-                    <td>Not fully dry—needs finishing step</td>
-                </tr>
-                <tr>
-                    <td>Price Range</td>
-                    <td>$99 - $149</td>
-                    <td>Mid-range pricing</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="pros-cons">
-            <div class="pros">
-                <h4>✓ Advantages</h4>
-                <ul>
-                    <li>Extremely fast (2-5 minute cycles)</li>
-                    <li>Very low power consumption (300W)</li>
-                    <li>No heat—zero shrinkage or damage risk</li>
-                    <li>Large capacity (22+ lbs)</li>
-                    <li>Cuts air drying time by 50%+</li>
-                    <li>Works with solar/battery systems</li>
-                </ul>
-            </div>
-            <div class="cons">
-                <h4>⚠ Considerations</h4>
-                <ul>
-                    <li>Doesn't fully dry clothes</li>
-                    <li>Requires a second drying method</li>
-                    <li>Loud during operation (high RPM)</li>
-                    <li>Can wrinkle clothes if left sitting</li>
-                    <li>Needs drainage for extracted water</li>
-                    <li>Limited product selection</li>
-                </ul>
-            </div>
-        </div>
-
-        <p><strong>Best For:</strong> Users who primarily air-dry but want faster results. RV/boondocking situations where power is limited. Eco-conscious users minimizing energy consumption. Anyone who wants to dramatically reduce tumble dryer run time (and electricity costs) by pre-extracting water.</p>
-
-
-        <!-- SECTION 5: Portable Dryer vs Laundromat -->
-        <h2 id="vs-laundromat">Portable Dryer vs. Laundromat: The Real Cost Comparison</h2>
-        
-        <p>The most common question we hear: "Is buying a portable dryer actually worth it?" Let's break down the real numbers.</p>
-
-        <h3>The True Cost of Laundromat Drying</h3>
-        
-        <p>Laundromat dryer costs have risen steadily. In 2024, most urban laundromats charge $3.00-5.00 per dryer load, with premium locations in cities like New York, San Francisco, and Boston often hitting $5.00-6.00. Let's calculate annual costs:</p>
-        
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th>Usage Level</th>
-                    <th>Loads/Week</th>
-                    <th>Cost @ $3.50/load</th>
-                    <th>Cost @ $5.00/load</th>
-                </tr>
-                <tr>
-                    <td>Light (single person)</td>
-                    <td>2</td>
-                    <td>$364/year</td>
-                    <td>$520/year</td>
-                </tr>
-                <tr>
-                    <td>Moderate (couple)</td>
-                    <td>4</td>
-                    <td>$728/year</td>
-                    <td>$1,040/year</td>
-                </tr>
-                <tr>
-                    <td>Heavy (family)</td>
-                    <td>6</td>
-                    <td>$1,092/year</td>
-                    <td>$1,560/year</td>
-                </tr>
-            </table>
-        </div>
-
-        <p>But money isn't the only cost. Consider the hidden expenses:</p>
-        
-        <ul>
-            <li><strong>Time:</strong> Travel to/from laundromat (15-30 min), waiting for machines (0-30 min), actual drying time (45-60 min). That's 1-2 hours per trip you could spend on literally anything else.</li>
-            <li><strong>Transportation:</strong> Gas, parking, or transit fares add $2-10 per trip depending on location.</li>
-            <li><strong>Inconvenience:</strong> Hauling heavy laundry bags. Operating on the laundromat's schedule. Competing for machines during peak hours. Returning to retrieve clothes before they're stolen or removed.</li>
-            <li><strong>Hygiene concerns:</strong> Machines used by hundreds of strangers. Questionable cleaning practices. Unknown what was dried before your clothes.</li>
-        </ul>
-
-        <h3>The True Cost of Portable Dryer Ownership</h3>
-        
-        <p>Now let's look at owning a portable dryer:</p>
-        
-        <p><strong>Purchase Price:</strong> $199-399 depending on capacity and features. Let's use $299 (a solid mid-range model) for our calculations.</p>
-        
-        <p><strong>Electricity Costs:</strong> A 1,400W dryer running for 50 minutes uses about 1.17 kWh. At the national average of $0.12/kWh, that's approximately $0.14 per load. Even at California's higher rates ($0.25/kWh), it's only $0.29 per load.</p>
-        
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th>Timeframe</th>
-                    <th>Laundromat (4 loads/wk @ $4)</th>
-                    <th>Portable Dryer ($299 + electricity)</th>
-                    <th>Savings</th>
-                </tr>
-                <tr>
-                    <td>Year 1</td>
-                    <td>$832</td>
-                    <td>$328 ($299 + $29 electricity)</td>
-                    <td>$504</td>
-                </tr>
-                <tr>
-                    <td>Year 2</td>
-                    <td>$1,664</td>
-                    <td>$357 (cumulative)</td>
-                    <td>$1,307</td>
-                </tr>
-                <tr>
-                    <td>Year 3</td>
-                    <td>$2,496</td>
-                    <td>$386 (cumulative)</td>
-                    <td>$2,110</td>
-                </tr>
-                <tr>
-                    <td>5-Year Total</td>
-                    <td>$4,160</td>
-                    <td>$444 (cumulative)</td>
-                    <td>$3,716</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="key-takeaway">
-            <h4>💰 Bottom Line</h4>
-            <p>A portable dryer typically pays for itself in 4-8 months. Over 5 years, you'll save $2,000-4,000 compared to laundromat costs—plus reclaim hundreds of hours of your time.</p>
-        </div>
-
-        <h3>Building Laundry Room vs. Portable Dryer</h3>
-        
-        <p>What about shared building laundry rooms? They're cheaper than laundromats ($1.50-3.00/load typically), but the math still favors portable dryer ownership:</p>
-        
-        <ul>
-            <li>At $2/load with 4 loads/week, you're spending $416/year</li>
-            <li>A $299 portable dryer still breaks even in under 9 months</li>
-            <li>Plus you eliminate waiting, scheduling, and hygiene concerns</li>
-        </ul>
-
-        <!-- SECTION 6: Complete Buying Guide -->
-        <h2 id="buying-guide">Complete Buying Guide: How to Choose Your Portable Dryer</h2>
-        
-        <p>Selecting the right portable dryer requires matching your specific situation to the right combination of type, capacity, and features. Here's a systematic approach.</p>
-
-        <h3>Step 1: Determine Your Dryer Type</h3>
-        
-        <p>Start by eliminating types that won't work for your situation:</p>
-        
-        <p><strong>Choose a Tumble Dryer if:</strong></p>
-        <ul>
-            <li>You need complete, ready-to-wear drying</li>
-            <li>You have access to a window for venting (or can afford ventless)</li>
-            <li>You want maximum capacity for regular family laundry</li>
-            <li>You have a semi-permanent installation location</li>
-        </ul>
-        
-        <p><strong>Choose a Bag Dryer if:</strong></p>
-        <ul>
-            <li>You travel frequently and want laundry capability on the road</li>
-            <li>You primarily dry delicates that shouldn't be tumbled</li>
-            <li>You have no venting options whatsoever</li>
-            <li>Space is extremely limited (need to store dryer when not in use)</li>
-        </ul>
-        
-        <p><strong>Choose a Spin Dryer if:</strong></p>
-        <ul>
-            <li>You prefer air drying but want to speed it up dramatically</li>
-            <li>You're in an RV/off-grid situation with limited power</li>
-            <li>You want to reduce tumble dryer energy costs</li>
-            <li>You live in a dry climate where air drying works well</li>
-        </ul>
-
-        <h3>Step 2: Determine Capacity Needs</h3>
-        
-        <p>Capacity matters—both too small and too large create problems. Here's how to right-size:</p>
-        
-        <div class="table-wrap">
-            <table>
-                <tr>
-                    <th>Capacity</th>
-                    <th>Pound Rating</th>
-                    <th>Best For</th>
-                    <th>Typical Load</th>
-                </tr>
-                <tr>
-                    <td>1.5 cu.ft</td>
-                    <td>5-10 lbs</td>
-                    <td>Singles, couples, light use</td>
-                    <td>5-7 t-shirts + underwear + socks</td>
-                </tr>
-                <tr>
-                    <td>2.0-2.6 cu.ft</td>
-                    <td>8-16 lbs</td>
-                    <td>Couples, small families</td>
-                    <td>Full outfit for 2-3 people + towels</td>
-                </tr>
-                <tr>
-                    <td>3.0-3.5 cu.ft</td>
-                    <td>13-26 lbs</td>
-                    <td>Families, heavy users</td>
-                    <td>Multiple outfits, bedding, comforters</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="info-box warning">
-            <h4>⚠️ Don't Oversize</h4>
-            <p>Buying more capacity than you need wastes money, space, and energy. A half-empty 3.5 cu.ft dryer uses the same electricity as a full one—but dries fewer items per dollar spent. Match capacity to your actual weekly laundry volume.</p>
-        </div>
-
-        <h3>Step 3: Consider Wattage Trade-offs</h3>
-        
-        <p>Higher wattage means faster drying but more electricity consumption. Choose based on your priorities:</p>
-        
-        <ul>
-            <li><strong>850-900W:</strong> Slowest drying (60-90+ min), lowest electricity costs, gentlest on fabrics. Good for patient users, those with high electricity rates, or delicate items.</li>
-            <li><strong>1,000-1,200W:</strong> Balanced performance (50-70 min), moderate costs. Good all-around choice for most users.</li>
-            <li><strong>1,400-1,500W:</strong> Faster drying (40-55 min), higher electricity costs. Good for time-pressed users or high-volume laundry.</li>
-            <li><strong>1,600-1,700W:</strong> Fastest portable drying, highest costs. Verify your circuit can handle this draw before purchasing.</li>
-        </ul>
-
-        <h3>Step 4: Evaluate Must-Have Features</h3>
-        
-        <p><strong>Essential Features (get these):</strong></p>
-        <ul>
-            <li><strong>Stainless steel drum:</strong> Resists rust, odors, and staining. Lasts years longer than coated alternatives.</li>
-            <li><strong>Multiple heat settings:</strong> Protects delicates, offers flexibility for different fabrics.</li>
-            <li><strong>Accessible lint filter:</strong> Easy to reach and clean (you'll do this every load).</li>
-            <li><strong>Timer control:</strong> Set it and walk away without babysitting.</li>
-        </ul>
-        
-        <p><strong>Nice-to-Have Features (worth paying extra):</strong></p>
-        <ul>
-            <li><strong>Sensor drying:</strong> Automatically detects moisture and stops when dry. Prevents over-drying, saves energy.</li>
-            <li><strong>Anti-wrinkle mode:</strong> Tumbles periodically after cycle ends to prevent wrinkles if you can't retrieve clothes immediately.</li>
-            <li><strong>LCD display:</strong> Shows remaining time and settings clearly.</li>
-            <li><strong>Drum reversal:</strong> Prevents tangling by periodically changing tumble direction.</li>
-        </ul>
-        
-        <p><strong>Situational Features:</strong></p>
-        <ul>
-            <li><strong>Wall-mount capability:</strong> Essential if floor space is limited.</li>
-            <li><strong>Ventless operation:</strong> Required if you have no window access for venting.</li>
-            <li><strong>See-through door:</strong> Convenient for monitoring without opening (which releases heat).</li>
-        </ul>
-
-        <h3>Step 5: Set Your Budget</h3>
-        
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>💵 Budget Tier: $150-250</h4>
-                <span class="expand-icon">+</span>
-            </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>What you get:</strong> Entry-level tumble dryers with basic features. Typically 1.5 cu.ft capacity, 850W power, mechanical timer controls. Adequate for light use by singles or couples.</p>
-                    <p><strong>Brands:</strong> COSTWAY, ROVSUN, Panda PAN725SF</p>
-                    <p><strong>Expect:</strong> Reliable basic drying, longer cycle times, limited features. May have shorter lifespan under heavy use.</p>
+        <button class="more-btn" onclick="toggleMore('spin-more', this)">Read More ▼</button>
+        <div class="more-content" id="spin-more">
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>✓ Advantages</h4>
+                    <ul>
+                        <li>Extremely fast (2-5 minute cycles)</li>
+                        <li>Very low power (300W)</li>
+                        <li>No heat—zero shrinkage risk</li>
+                        <li>Cuts air drying time by 50%+</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>⚠ Considerations</h4>
+                    <ul>
+                        <li>Doesn't fully dry clothes</li>
+                        <li>Requires second drying method</li>
+                        <li>Loud during operation</li>
+                        <li>Needs drainage</li>
+                    </ul>
                 </div>
             </div>
+            <p><strong>Best For:</strong> Users who primarily air-dry but want faster results. RV/boondocking situations where power is limited.</p>
         </div>
 
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>💵 Mid-Range Tier: $250-350</h4>
-                <span class="expand-icon">+</span>
-            </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>What you get:</strong> Better build quality, more features, mid-size capacity. Typically 2.0-2.65 cu.ft, 1,000-1,400W, multiple drying modes. The sweet spot for most apartment dwellers.</p>
-                    <p><strong>Brands:</strong> Panda, CTT, BLACK+DECKER</p>
-                    <p><strong>Expect:</strong> Reliable everyday performance, reasonable cycle times, sensor drying on some models. Good balance of cost and capability.</p>
-                </div>
-            </div>
-        </div>
+        <!-- SECTION 5 -->
+        <h2 id="vs-laundromat">Portable Dryer vs. Laundromat: Cost Comparison</h2>
+        
+        <p>The most common question: "Is buying a portable dryer actually worth it?" Let's break down the real numbers.</p>
 
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>💵 Premium Tier: $350-450</h4>
-                <span class="expand-icon">+</span>
-            </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>What you get:</strong> Maximum capacity, premium features, best build quality. Typically 3.5 cu.ft, 1,500W, LCD displays, sensor drying, anti-wrinkle modes.</p>
-                    <p><strong>Brands:</strong> Panda 3.5 cu.ft, BLACK+DECKER BCED37, CTT 3.5 cu.ft</p>
-                    <p><strong>Expect:</strong> Family-scale capacity, fastest drying times, long service life. Worth it for heavy users or those who value convenience features.</p>
-                </div>
+        <button class="more-btn" onclick="toggleMore('cost-more', this)">Read More ▼</button>
+        <div class="more-content" id="cost-more">
+            <h3>Laundromat Costs</h3>
+            <p>Most urban laundromats charge $3.00-5.00 per dryer load. At 4 loads/week, that's $624-1,040 annually. Plus time costs: 1-2 hours per trip for travel, waiting, and actual drying.</p>
+
+            <h3>Portable Dryer Costs</h3>
+            <p>Purchase: $199-399. Electricity: approximately $0.12-0.15 per load at average rates. That's about $25-30 per year for electricity.</p>
+
+            <div class="key-point">
+                <h4>💰 Bottom Line</h4>
+                <p>A portable dryer typically pays for itself in 4-8 months. Over 5 years, you'll save $2,000-4,000 compared to laundromat costs—plus reclaim hundreds of hours.</p>
             </div>
         </div>
 
+        <!-- SECTION 6 -->
+        <h2 id="buying-guide">Complete Buying Guide</h2>
+        
+        <p>Selecting the right portable dryer requires matching your specific situation to the right combination of type, capacity, and features.</p>
 
-        <!-- SECTION 7: Installation & Setup -->
-        <h2 id="installation">Installation & Setup Guide</h2>
-        
-        <p>Proper installation ensures safe operation, optimal performance, and long equipment life. Follow these steps for your dryer type.</p>
+        <button class="more-btn" onclick="toggleMore('guide-more', this)">Read More ▼</button>
+        <div class="more-content" id="guide-more">
+            <h3>Step 1: Determine Your Dryer Type</h3>
+            <p><strong>Choose Tumble if:</strong> You need complete, ready-to-wear drying and have window access for venting.</p>
+            <p><strong>Choose Bag if:</strong> You travel frequently or primarily dry delicates.</p>
+            <p><strong>Choose Spin if:</strong> You prefer air drying but want to speed it up, or have limited power.</p>
 
-        <h3>Tumble Dryer Installation (Vented Models)</h3>
-        
-        <p><strong>Step 1: Choose Your Location</strong></p>
-        <p>Select a spot with these requirements:</p>
-        <ul>
-            <li>Within 6 feet of a grounded 110V outlet</li>
-            <li>Within reasonable distance of a window for the vent hose (4-8 feet ideal)</li>
-            <li>Level, stable surface that supports 70-100 lbs when loaded</li>
-            <li>At least 4 inches clearance on back and sides for airflow</li>
-            <li>Away from curtains, bedding, or other flammable materials</li>
-        </ul>
-        
-        <p><strong>Step 2: Unpack and Inspect</strong></p>
-        <p>Remove all packaging materials and check for shipping damage before proceeding. Keep the box until you've verified the dryer works—returns are much easier with original packaging. Remove any internal packing tape or transit brackets (check your manual for model-specific locations).</p>
-        
-        <p><strong>Step 3: Set Up Venting</strong></p>
-        <p>Connect the included flexible vent hose to the dryer's exhaust port (typically 4" diameter). Route the hose to your window using the included venting kit. Key tips:</p>
-        <ul>
-            <li>Keep the hose as straight and short as possible—every bend and extra foot reduces airflow</li>
-            <li>Avoid crushing or kinking the hose</li>
-            <li>Ensure the window vent flap opens freely when air flows and closes when dryer stops</li>
-            <li>Secure all connections with included clamps—loose connections leak humid air into your space</li>
-        </ul>
-        
-        <p><strong>Step 4: Level the Unit</strong></p>
-        <p>Use a bubble level to verify the dryer is level front-to-back and side-to-side. Adjust the leveling feet as needed. An unlevel dryer vibrates excessively and wears out faster.</p>
-        
-        <p><strong>Step 5: Plug In and Test</strong></p>
-        <p>Plug directly into a grounded outlet—never use extension cords with dryers. Run an empty test cycle (10-15 minutes, medium heat) to verify:</p>
-        <ul>
-            <li>Drum rotates smoothly without unusual noise</li>
-            <li>Warm air flows from the exhaust vent</li>
-            <li>Controls respond correctly</li>
-            <li>Door latches and unlatches properly</li>
-        </ul>
+            <h3>Step 2: Determine Capacity</h3>
+            <p><strong>1.5 cu.ft (5-10 lbs):</strong> Singles, couples, light use.</p>
+            <p><strong>2.0-2.6 cu.ft (8-16 lbs):</strong> Couples, small families.</p>
+            <p><strong>3.0-3.5 cu.ft (13-26 lbs):</strong> Families, heavy users.</p>
 
-        <div class="info-box warning">
-            <h4>⚠️ Extension Cord Warning</h4>
-            <p>Never use extension cords with portable dryers. They cause voltage drops that reduce heating element efficiency, and can overheat—creating fire hazards. If the outlet isn't convenient, have an electrician install one in the right location.</p>
-        </div>
-
-        <h3>Ventless Dryer Installation</h3>
-        
-        <p>Ventless dryers follow similar steps but skip the venting setup. Key differences:</p>
-        <ul>
-            <li>Placement is more flexible—no window proximity required</li>
-            <li>Ensure the water collection tank is properly seated</li>
-            <li>Consider running a drain hose to a nearby sink for continuous drainage</li>
-            <li>Allow extra space around the unit—ventless dryers release some heat into the room</li>
-        </ul>
-
-        <h3>Bag Dryer Setup</h3>
-        
-        <p>Bag dryers require minimal setup:</p>
-        <ol>
-            <li>Place the base unit on a stable, flat surface</li>
-            <li>Attach the fabric bag to the base following manufacturer instructions</li>
-            <li>Extend any internal support poles or hoops to give the bag its full shape</li>
-            <li>Ensure adequate ceiling clearance (typically 5-6 feet)</li>
-            <li>Plug in and verify the heater and fan operate</li>
-        </ol>
-
-        <h3>Spin Dryer Setup</h3>
-        
-        <p>Spin dryers need drainage consideration:</p>
-        <ol>
-            <li>Position within reach of a sink, tub, or floor drain (gravity drainage)</li>
-            <li>Place on a stable surface that can handle vibration—these machines shake!</li>
-            <li>Consider rubber anti-vibration pads to reduce noise transmission</li>
-            <li>Route drain hose with continuous downward slope</li>
-            <li>Plug in and run a test cycle with a wet towel to verify operation</li>
-        </ol>
-
-        <!-- SECTION 8: Maintenance & Safety -->
-        <h2 id="maintenance">Maintenance, Safety & Troubleshooting</h2>
-        
-        <p>Proper maintenance keeps your dryer running efficiently and safely for years. Neglect can lead to poor performance, higher energy costs, and even fire hazards.</p>
-
-        <h3>Essential Maintenance Tasks</h3>
-        
-        <p><strong>After Every Load: Clean the Lint Filter</strong></p>
-        <p>This is non-negotiable. Lint accumulation restricts airflow, extending drying times and forcing the heating element to work harder. More critically, lint is highly flammable—accumulated lint is the leading cause of dryer fires. Remove the filter, peel off lint, and replace. Takes 10 seconds.</p>
-        
-        <p><strong>Monthly: Check the Exhaust System</strong></p>
-        <p>For vented dryers, inspect the entire exhaust path:</p>
-        <ul>
-            <li>Disconnect the vent hose and check for lint buildup inside</li>
-            <li>Verify the hose isn't kinked, crushed, or damaged</li>
-            <li>Ensure the window vent flap opens and closes freely</li>
-            <li>Clean any accumulated debris</li>
-        </ul>
-        
-        <p><strong>Every 3-6 Months: Deep Clean</strong></p>
-        <ul>
-            <li>Wipe drum interior with a damp cloth to remove residue from fabric softeners</li>
-            <li>Clean around the lint filter housing (where fine particles accumulate)</li>
-            <li>Vacuum behind and under the dryer</li>
-            <li>Check that leveling feet are still properly adjusted</li>
-        </ul>
-
-        <h3>Dryer Safety Guidelines</h3>
-        
-        <div class="info-box warning">
-            <h4>🔥 Fire Prevention</h4>
-            <p>Dryer fires cause an estimated 2,900 home fires annually in the US. Most are preventable with proper maintenance and safe operation practices.</p>
-        </div>
-        
-        <ul>
-            <li><strong>Never leave a running dryer unattended for extended periods</strong>—especially not overnight or when leaving home</li>
-            <li><strong>Keep the area around your dryer clear</strong>—no storage of flammable materials nearby</li>
-            <li><strong>Never dry items that have been in contact with flammable substances</strong>—cooking oils, gasoline, cleaning solvents, etc. These can ignite even after washing</li>
-            <li><strong>Don't overload</strong>—overloaded dryers overheat and pose fire risks</li>
-            <li><strong>Don't disable or bypass safety switches</strong>—they exist for good reasons</li>
-            <li><strong>Ensure proper venting</strong>—restricted exhaust causes overheating</li>
-            <li><strong>Replace damaged power cords immediately</strong>—frayed cords cause electrical fires</li>
-        </ul>
-
-        <h3>Troubleshooting Common Problems</h3>
-
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>🔧 Clothes Taking Too Long to Dry</h4>
-                <span class="expand-icon">+</span>
+            <div class="info-box warning">
+                <h4>⚠️ Don't Oversize</h4>
+                <p>A half-empty 3.5 cu.ft dryer uses the same electricity as a full one—but dries fewer items per dollar spent. Match capacity to your actual weekly volume.</p>
             </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>Check the lint filter:</strong> This is the #1 cause of slow drying. Even partial clogging significantly impacts performance.</p>
-                    <p><strong>Inspect the exhaust:</strong> Kinked hoses, blocked vents, or excessive hose length restrict airflow. The exhaust should flow freely.</p>
-                    <p><strong>Reduce load size:</strong> Overloading prevents proper tumbling and air circulation. Try a smaller load.</p>
-                    <p><strong>Check ambient conditions:</strong> Very humid environments make drying harder. Consider running air conditioning or a dehumidifier.</p>
-                    <p><strong>Verify heat:</strong> If the dryer tumbles but stays cool, the heating element may have failed—contact support.</p>
-                </div>
+
+            <h3>Step 3: Essential Features</h3>
+            <ul>
+                <li><strong>Stainless steel drum:</strong> Resists rust and odors</li>
+                <li><strong>Multiple heat settings:</strong> Protects delicates</li>
+                <li><strong>Accessible lint filter:</strong> Easy to clean</li>
+                <li><strong>Timer control:</strong> Set it and walk away</li>
+            </ul>
+        </div>
+
+        <!-- SECTION 7 -->
+        <h2 id="installation">Installation & Setup</h2>
+        
+        <p>Proper installation ensures safe operation and optimal performance. Most setups take under 30 minutes.</p>
+
+        <button class="more-btn" onclick="toggleMore('install-more', this)">Read More ▼</button>
+        <div class="more-content" id="install-more">
+            <h3>Location Requirements</h3>
+            <ul>
+                <li>Within 6 feet of a grounded 110V outlet</li>
+                <li>Near a window for venting (if vented model)</li>
+                <li>Level, stable surface supporting 70-100 lbs when loaded</li>
+                <li>At least 4 inches clearance on back and sides</li>
+                <li>Away from flammable materials</li>
+            </ul>
+
+            <h3>Venting Setup</h3>
+            <p>Connect the flexible exhaust hose to the dryer's vent port. Route to your window using the included kit. Keep the hose as short and straight as possible—bends reduce airflow efficiency.</p>
+
+            <div class="info-box warning">
+                <h4>⚠️ Extension Cord Warning</h4>
+                <p>Never use extension cords with portable dryers. They cause voltage drops and can overheat—creating fire hazards. If the outlet isn't convenient, have an electrician install one in the right location.</p>
             </div>
         </div>
 
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>🔧 Dryer Won't Start</h4>
-                <span class="expand-icon">+</span>
+        <!-- SECTION 8 -->
+        <h2 id="maintenance">Maintenance & Safety</h2>
+        
+        <p>Proper maintenance keeps your dryer running efficiently and safely for years. Neglect can lead to poor performance and fire hazards.</p>
+
+        <button class="more-btn" onclick="toggleMore('maint-more', this)">Read More ▼</button>
+        <div class="more-content" id="maint-more">
+            <h3>Essential Maintenance</h3>
+            <p><strong>After Every Load:</strong> Clean the lint filter. This is non-negotiable—lint buildup is the #1 cause of dryer fires.</p>
+            <p><strong>Monthly:</strong> Check the exhaust system for lint buildup and kinks.</p>
+            <p><strong>Every 3-6 Months:</strong> Wipe drum interior, clean around lint filter housing, vacuum behind the unit.</p>
+
+            <div class="info-box warning">
+                <h4>🔥 Fire Prevention</h4>
+                <p>Dryer fires cause an estimated 2,900 home fires annually in the US. Most are preventable: clean the lint filter, don't overload, never dry items exposed to flammable substances, and ensure proper venting.</p>
             </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>Check power:</strong> Verify the outlet works by testing with another device. Check your circuit breaker.</p>
-                    <p><strong>Check the door:</strong> Most dryers have safety switches that prevent operation with an open door. Ensure it's fully latched.</p>
-                    <p><strong>Check controls:</strong> Make sure the timer/settings are properly configured—some dryers won't start at zero.</p>
-                    <p><strong>Let it cool:</strong> Some dryers have thermal overload protection that shuts down if overheated. Wait 30 minutes and retry.</p>
-                </div>
+
+            <h3>Troubleshooting</h3>
+            <div class="accordion">
+                <div class="acc-header" onclick="toggleAcc(this.parentElement)">Clothes Taking Too Long to Dry <span class="acc-icon">+</span></div>
+                <div class="acc-body"><div class="acc-body-inner">
+                    <p>Check the lint filter first—this is the #1 cause. Then inspect the exhaust hose for kinks or blockages. Try reducing load size. Verify the dryer is producing heat.</p>
+                </div></div>
+            </div>
+            <div class="accordion">
+                <div class="acc-header" onclick="toggleAcc(this.parentElement)">Dryer Won't Start <span class="acc-icon">+</span></div>
+                <div class="acc-body"><div class="acc-body-inner">
+                    <p>Check power by testing the outlet with another device. Ensure the door is fully latched. Verify timer/settings are configured. Let it cool for 30 minutes if overheated.</p>
+                </div></div>
+            </div>
+            <div class="accordion">
+                <div class="acc-header" onclick="toggleAcc(this.parentElement)">Excessive Noise or Vibration <span class="acc-icon">+</span></div>
+                <div class="acc-body"><div class="acc-body-inner">
+                    <p>Re-level using the adjustable feet. Redistribute the load more evenly. Check for foreign objects (coins, buttons). Squeaking may indicate worn parts.</p>
+                </div></div>
             </div>
         </div>
-
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>🔧 Excessive Noise or Vibration</h4>
-                <span class="expand-icon">+</span>
-            </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>Check leveling:</strong> An unlevel dryer vibrates excessively. Re-level using the adjustable feet.</p>
-                    <p><strong>Check load balance:</strong> Heavy items (jeans, towels) can throw the drum off balance. Redistribute the load more evenly.</p>
-                    <p><strong>Remove foreign objects:</strong> Coins, buttons, or other items may have fallen into the drum area. Check for rattling objects.</p>
-                    <p><strong>Check for wear:</strong> Squeaking or grinding may indicate worn drum rollers or bearings—these are serviceable parts.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="expand-section">
-            <div class="expand-header" onclick="toggleExpand(this)">
-                <h4>🔧 Clothes Coming Out Wrinkled</h4>
-                <span class="expand-icon">+</span>
-            </div>
-            <div class="expand-body">
-                <div class="expand-body-inner">
-                    <p><strong>Don't over-dry:</strong> Excessive heat sets wrinkles. Remove clothes while slightly damp if your dryer lacks sensor technology.</p>
-                    <p><strong>Retrieve promptly:</strong> Clothes sitting in the drum after the cycle ends develop wrinkles. Remove immediately or use anti-wrinkle mode.</p>
-                    <p><strong>Reduce load size:</strong> Overloaded drums prevent proper tumbling, causing clothes to compress and wrinkle.</p>
-                    <p><strong>Shake before loading:</strong> Untangle clothes before putting them in—balled-up items wrinkle badly.</p>
-                </div>
-            </div>
-        </div>
-
 
     </div>
 </article>
 
 <!-- PRODUCTS SECTION -->
-
-<!-- PRODUCTS SECTION -->
 <section class="products-section" id="products">
     <div class="container-wide">
-        <div style="text-align: center; margin-bottom: 40px;">
-            <h2 style="border: none; margin: 0 0 10px;">5 Best Portable Dryers for Any Space (2025)</h2>
-            <p style="color: var(--gray);">Our top picks after extensive research—all 110V, all apartment-friendly</p>
-        </div>
+        <h2>5 Best Portable Dryers for Any Space (2025)</h2>
+        <p>Our top picks after extensive research—all 110V, all apartment-friendly</p>
 
         <div class="product-grid">
             
-            <!-- 1. BLACK+DECKER BCED37 -->
+            <!-- 1. BLACK+DECKER -->
             <div class="product-card">
-                <span class="product-badge">Editor's Choice</span>
+                <span class="badge">Editor's Choice</span>
                 <h4>BLACK+DECKER BCED37 Compact Dryer</h4>
-                <div class="product-specs">
+                <div class="specs">
                     <span class="spec">3.5 Cu.Ft</span>
                     <span class="spec">13.2 lbs Capacity</span>
                     <span class="spec">4 Modes</span>
                     <span class="spec">110V Standard Outlet</span>
                 </div>
-                <p>Backed by BLACK+DECKER's decades of appliance expertise and customer support infrastructure. Four automatic drying modes handle everything from delicates to heavy loads. The trusted brand choice for buyers who value reliability and accessible service.</p>
-                <div class="read-more">
-                    <div class="read-more-content">
-                        <p>What sets BLACK+DECKER apart is their support ecosystem. If something goes wrong, customer service is accessible, replacement parts are available through authorized dealers, and service centers exist nationwide. The stainless steel drum provides durability, while overheat protection ensures safe operation.</p>
-                    </div>
-                    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More ▼</button>
+                <p>Backed by BLACK+DECKER's decades of appliance expertise and customer support infrastructure. Four automatic drying modes handle everything from delicates to heavy loads.</p>
+                <div class="product-more" id="prod1-more">
+                    <p>What sets BLACK+DECKER apart is their support ecosystem. If something goes wrong, customer service is accessible, replacement parts are available, and service centers exist nationwide. The stainless steel drum provides durability, while overheat protection ensures safe operation.</p>
                 </div>
-                <div class="product-footer">
-                    <a href="https://www.amazon.com/dp/B09BG3TW8H?tag=globalaffi0d0-20" class="cta-btn" target="_blank" rel="nofollow noopener">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
-                        View on Amazon
-                    </a>
-                </div>
+                <button class="more-btn" onclick="toggleMore('prod1-more', this)">Read More ▼</button>
+                <a href="https://www.amazon.com/dp/B09BG3TW8H?tag=globalaffi0d0-20" class="cta-btn" target="_blank" rel="nofollow noopener">View on Amazon</a>
             </div>
 
-            <!-- 2. Panda Compact Dryer 3.5 cu.ft -->
+            <!-- 2. Panda Compact 3.5 -->
             <div class="product-card">
-                <span class="product-badge">Best Value</span>
+                <span class="badge">Best Value</span>
                 <h4>Panda Compact Dryer 3.5 cu.ft</h4>
-                <div class="product-specs">
+                <div class="specs">
+                    <span class="spec">3.5 Cu.Ft</span>
                     <span class="spec">1500W</span>
                     <span class="spec">13.2 lbs Capacity</span>
-                    <span class="spec">110V</span>
                     <span class="spec">Stainless Steel Tub</span>
                 </div>
-                <p>Panda has earned its reputation as the most trusted name in portable dryers through years of consistent performance. This 3.5 cu.ft model delivers family-scale capacity with the reliability thousands of owners have come to expect.</p>
-                <div class="read-more">
-                    <div class="read-more-content">
-                        <p>The 1500W heating element provides efficient drying power for larger loads. Multiple drying modes accommodate different fabric types—from delicates to heavy towels. The stainless steel drum resists rust and odors for years of dependable service.</p>
-                    </div>
-                    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More ▼</button>
+                <p>Panda has earned its reputation as the most trusted name in portable dryers through years of consistent performance. This 3.5 cu.ft model delivers family-scale capacity with proven reliability.</p>
+                <div class="product-more" id="prod2-more">
+                    <p>The 1500W heating element provides efficient drying power for larger loads. Multiple drying modes accommodate different fabric types—from delicates to heavy towels. The stainless steel drum resists rust and odors for years of dependable service.</p>
                 </div>
-                <div class="product-footer">
-                    <a href="https://amzn.to/48DLFmy" class="cta-btn" target="_blank" rel="nofollow noopener">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
-                        View on Amazon
-                    </a>
-                </div>
+                <button class="more-btn" onclick="toggleMore('prod2-more', this)">Read More ▼</button>
+                <a href="https://amzn.to/48DLFmy" class="cta-btn" target="_blank" rel="nofollow noopener">View on Amazon</a>
             </div>
 
-            <!-- 3. CTT 3.5 Cu. Ft. Clothes Dryer -->
+            <!-- 3. CTT -->
             <div class="product-card">
-                <span class="product-badge">High Capacity</span>
+                <span class="badge">High Capacity</span>
                 <h4>CTT 3.5 Cu. Ft. Electric Clothes Dryer</h4>
-                <div class="product-specs">
+                <div class="specs">
+                    <span class="spec">3.5 Cu.Ft</span>
                     <span class="spec">1500W</span>
-                    <span class="spec">13.2 lbs Capacity</span>
                     <span class="spec">4 Automatic Modes</span>
                     <span class="spec">Stainless Steel Drum</span>
                 </div>
-                <p>CTT's flagship dryer combines powerful 1500W performance with thoughtful design features. Four automatic drying modes (Air Dry, Cool, Warm, Hot) handle everything from freshening lightly worn clothes to thoroughly drying heavy loads.</p>
-                <div class="read-more">
-                    <div class="read-more-content">
-                        <p>The 110° door opening angle makes loading bulky items like comforters easier. Built-in lint filter at the air intake prevents clogs and ensures consistent airflow. Stainless steel drum construction provides durability and even heat distribution.</p>
-                    </div>
-                    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More ▼</button>
+                <p>CTT's flagship dryer combines powerful 1500W performance with thoughtful design. Four automatic modes (Air Dry, Cool, Warm, Hot) handle everything from freshening clothes to drying heavy loads.</p>
+                <div class="product-more" id="prod3-more">
+                    <p>The 110° door opening angle makes loading bulky items like comforters easier. Built-in lint filter at the air intake prevents clogs and ensures consistent airflow. Stainless steel drum construction provides durability and even heat distribution.</p>
                 </div>
-                <div class="product-footer">
-                    <a href="https://amzn.to/3KCicjL" class="cta-btn" target="_blank" rel="nofollow noopener">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
-                        View on Amazon
-                    </a>
-                </div>
+                <button class="more-btn" onclick="toggleMore('prod3-more', this)">Read More ▼</button>
+                <a href="https://amzn.to/3KCicjL" class="cta-btn" target="_blank" rel="nofollow noopener">View on Amazon</a>
             </div>
 
-            <!-- 4. Panda Dryer (original link) -->
+            <!-- 4. Panda Portable -->
             <div class="product-card">
-                <span class="product-badge">Most Popular</span>
+                <span class="badge">Most Popular</span>
                 <h4>Panda 3.5 Cu. Ft. Portable Clothes Dryer</h4>
-                <div class="product-specs">
-                    <span class="spec">3.5 Cu. Ft.</span>
+                <div class="specs">
+                    <span class="spec">3.5 Cu.Ft</span>
                     <span class="spec">110V</span>
-                    <span class="spec">Compact Design</span>
                     <span class="spec">Wall Mountable</span>
                     <span class="spec">Stainless Steel</span>
                 </div>
-                <p>The best-selling portable dryer on the market for good reason. Panda's reputation for reliable, no-fuss performance has made it the go-to choice for apartment dwellers and first-time portable dryer buyers alike.</p>
-                <div class="read-more">
-                    <div class="read-more-content">
-                        <p>Wall-mount capability lets you stack it above a portable washer, creating a complete laundry station in a closet. Thousands of verified reviews confirm long-term reliability. Simple controls make operation straightforward—no complicated settings to learn.</p>
-                    </div>
-                    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More ▼</button>
+                <p>The best-selling portable dryer on the market for good reason. Panda's reputation for reliable, no-fuss performance has made it the go-to choice for apartment dwellers.</p>
+                <div class="product-more" id="prod4-more">
+                    <p>Wall-mount capability lets you stack it above a portable washer, creating a complete laundry station in a closet. Thousands of verified reviews confirm long-term reliability. Simple controls make operation straightforward.</p>
                 </div>
-                <div class="product-footer">
-                    <a href="https://amzn.to/3L3BHli" class="cta-btn" target="_blank" rel="nofollow noopener">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
-                        View on Amazon
-                    </a>
-                </div>
+                <button class="more-btn" onclick="toggleMore('prod4-more', this)">Read More ▼</button>
+                <a href="https://amzn.to/3L3BHli" class="cta-btn" target="_blank" rel="nofollow noopener">View on Amazon</a>
             </div>
 
-            <!-- 5. 3.5 Cu.Ft LCD Touch Panel -->
+            <!-- 5. LCD Touch Panel -->
             <div class="product-card">
-                <span class="product-badge">Premium Features</span>
+                <span class="badge">Premium Features</span>
                 <h4>3.5 Cu.Ft Portable Dryer with LCD Touch Panel</h4>
-                <div class="product-specs">
+                <div class="specs">
+                    <span class="spec">3.5 Cu.Ft</span>
                     <span class="spec">1500W</span>
                     <span class="spec">LCD Touch Panel</span>
                     <span class="spec">Front Load Tumble</span>
-                    <span class="spec">Stainless Steel Tub</span>
                 </div>
-                <p>Modern design meets powerful performance. The LCD touch panel provides precise control and clear feedback on cycle status. Front-load tumble design ensures even drying while the stainless steel tub delivers durability.</p>
-                <div class="read-more">
-                    <div class="read-more-content">
-                        <p>Perfect for users who want a more refined interface than traditional knob controls. The touch panel makes selecting modes and monitoring progress intuitive. Compact enough for apartments and dorms while delivering full-size drying capability.</p>
-                    </div>
-                    <button class="read-more-btn" onclick="toggleReadMore(this)">Read More ▼</button>
+                <p>Modern design meets powerful performance. The LCD touch panel provides precise control and clear feedback on cycle status. Perfect for users who want a refined interface.</p>
+                <div class="product-more" id="prod5-more">
+                    <p>The touch panel makes selecting modes and monitoring progress intuitive. Compact enough for apartments and dorms while delivering full-size drying capability. Stainless steel tub ensures durability.</p>
                 </div>
-                <div class="product-footer">
-                    <a href="https://amzn.to/4rZxrDX" class="cta-btn" target="_blank" rel="nofollow noopener">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 7h-3V6a4 4 0 00-8 0v1H5a1 1 0 00-1 1v11a3 3 0 003 3h10a3 3 0 003-3V8a1 1 0 00-1-1zm-9-1a2 2 0 014 0v1h-4V6zm8 13a1 1 0 01-1 1H7a1 1 0 01-1-1V9h12v10z"/></svg>
-                        View on Amazon
-                    </a>
-                </div>
+                <button class="more-btn" onclick="toggleMore('prod5-more', this)">Read More ▼</button>
+                <a href="https://amzn.to/4rZxrDX" class="cta-btn" target="_blank" rel="nofollow noopener">View on Amazon</a>
             </div>
 
         </div>
     </div>
 </section>
 
-less dryers condense moisture into a water tank instead—they cost more and run slightly longer, but can be placed anywhere without window access. Choose ventless if you have no window nearby or can't modify anything in your rental.</p></div>
-            </div>
+<!-- FAQ -->
+<article>
+    <div class="container">
+        <h2 id="faq">Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this.parentElement)">Can I use a portable dryer without special hookups? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>Yes! All portable dryers plug into standard 110V outlets—the same outlets you use for lamps and TVs. No electrician needed. The only requirement is a window nearby for venting (or choose a ventless model).</p></div>
+        </div>
 
-            <div class="faq-item">
-                <button class="faq-q" onclick="toggleFaq(this)">Is a portable dryer worth the investment?<span class="faq-icon">+</span></button>
-                <div class="faq-a"><p>For most people without built-in laundry, absolutely. At $3-5 per laundromat load with 4 loads/week, you're spending $624-1,040 annually. A $299 portable dryer pays for itself in 4-8 months. Over 5 years, you'll save $2,000-4,000. Plus you reclaim hours of time, avoid hygiene concerns with shared machines, and do laundry whenever it's convenient for you.</p></div>
-            </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this.parentElement)">How long does a portable dryer take? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>Portable dryers take 40-90 minutes for a full load, compared to 30-45 minutes for full-size 220V dryers. The difference comes from physics: 110V dryers produce less heat. Higher-wattage models (1,400-1,500W) approach full-size performance.</p></div>
+        </div>
 
-            <div class="faq-item">
-                <button class="faq-q" onclick="toggleFaq(this)">Can portable dryers handle delicates and special fabrics?<span class="faq-icon">+</span></button>
-                <div class="faq-a"><p>Yes, with appropriate settings. Use low heat for synthetics, activewear, and items prone to shrinking. For true delicates (silk, wool, lingerie, items labeled "do not tumble dry"), consider a bag dryer instead—they use warm air without tumbling, which is much gentler. Spin dryers are also delicate-safe since they use no heat at all.</p></div>
-            </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this.parentElement)">How much electricity does a portable dryer use? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>A typical 1,400W dryer running for 50 minutes uses about 1.17 kWh—roughly $0.12-0.15 per load. Compare that to $3-5 per laundromat load. The electricity cost is negligible compared to the convenience and savings.</p></div>
+        </div>
 
-            <div class="faq-item">
-                <button class="faq-q" onclick="toggleFaq(this)">What's the difference between "portable" and "compact" dryers?<span class="faq-icon">+</span></button>
-                <div class="faq-a"><p>"Portable" specifically means 110V operation—plug into any standard outlet, no special installation. "Compact" just means physically smaller, but some compact dryers still require 220V dedicated circuits and professional installation. Always verify voltage before buying. If it needs 220V, it's not truly portable regardless of its size.</p></div>
-            </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this.parentElement)">What's the difference between vented and ventless? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>Vented dryers expel humid air through a hose to a window—they're faster and less expensive. Ventless dryers condense moisture into a water tank—they cost more but can be placed anywhere without window access.</p></div>
+        </div>
 
-            <div class="faq-item">
-                <button class="faq-q" onclick="toggleFaq(this)">Can I use a portable dryer in an RV?<span class="faq-icon">+</span></button>
-                <div class="faq-a"><p>Yes, but mind your power budget. Standard 30-amp RV shore power provides about 3,600 watts total. A 1,500W dryer uses nearly half that capacity—you can't run much else simultaneously. Lower-wattage models (850W) leave more headroom. For boondocking (solar/battery), spin dryers at 300W are the only practical option. Many RVers combine a spin dryer with air drying for complete off-grid laundry.</p></div>
-            </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this.parentElement)">Is a portable dryer worth the investment? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>For most people without built-in laundry, absolutely. At $3-5 per laundromat load, a portable dryer pays for itself in 4-8 months. Over 5 years, you'll save $2,000-4,000 plus reclaim hours of time.</p></div>
+        </div>
 
-            <div class="faq-item">
-                <button class="faq-q" onclick="toggleFaq(this)">How do I vent a portable dryer through a window?<span class="faq-icon">+</span></button>
-                <div class="faq-a"><p>Most portable dryers include a venting kit. Connect the flexible exhaust hose to the dryer's vent port, then route it to your window. The kit typically includes a window adapter with a flap that opens when air flows and closes when the dryer stops. Keep the hose as short and straight as possible—bends and length reduce airflow efficiency. No permanent modifications to the window are needed.</p></div>
-            </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this.parentElement)">Can portable dryers handle delicates? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>Yes, with appropriate settings. Use low heat for synthetics and items prone to shrinking. For true delicates (silk, wool, lingerie), consider a bag dryer—they use warm air without tumbling.</p></div>
+        </div>
 
-            <div class="faq-item">
-                <button class="faq-q" onclick="toggleFaq(this)">How often do I need to clean the lint filter?<span class="faq-icon">+</span></button>
-                <div class="faq-a"><p>After every single load—no exceptions. Lint buildup is the #1 cause of poor drying performance and the leading cause of dryer fires. It takes 10 seconds: pull out the filter, peel off the lint, replace. Also inspect your exhaust hose monthly for lint accumulation, and clean the filter housing every few months to remove fine particles that slip through.</p></div>
-            </div>
+        <div class="faq-item">
+            <button class="faq-q" onclick="toggleFaq(this.parentElement)">How often should I clean the lint filter? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>After every single load—no exceptions. Lint buildup is the #1 cause of poor performance and the leading cause of dryer fires. It takes 10 seconds: pull out the filter, peel off the lint, replace.</p></div>
         </div>
     </div>
 </article>
 
-<!-- FOOTER -->
+<!-- Footer -->
 <footer>
     <div class="container-wide">
         <div class="disclosure">
-            <strong>Affiliate Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases at no extra cost to you. This helps support our research and keeps this guide free. We only recommend products we've thoroughly researched and believe offer genuine value.
+            <strong>Affiliate Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases at no extra cost to you. This helps support our research and keeps this guide free.
         </div>
         <div class="footer-grid">
             <div class="footer-brand">
                 <a href="#" class="logo">🌀 Portable<span>Dryer</span>Guide</a>
-                <p>The most comprehensive resource for portable clothes dryer information, reviews, and buying guidance. Helping apartment dwellers, RVers, and travelers find the perfect drying solution since 2020.</p>
+                <p>The most comprehensive resource for portable clothes dryer information, reviews, and buying guidance.</p>
             </div>
             <div>
                 <h4>Guide Sections</h4>
                 <ul class="footer-links">
                     <li><a href="#what-is">What Is a Portable Dryer?</a></li>
                     <li><a href="#who-needs">Who Needs One?</a></li>
-                    <li><a href="#how-works">How They Work</a></li>
                     <li><a href="#buying-guide">Buying Guide</a></li>
                     <li><a href="#products">Top Picks</a></li>
                 </ul>
@@ -1320,42 +698,66 @@ less dryers condense moisture into a water tank instead—they cost more and run
                     <li><a href="#types">Tumble Dryers</a></li>
                     <li><a href="#types">Bag Dryers</a></li>
                     <li><a href="#types">Spin Dryers</a></li>
-                    <li><a href="#types">Ventless Options</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
             <p>© 2025 PortableDryerGuide. All rights reserved.</p>
-            <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+            <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</p>
         </div>
     </div>
 </footer>
 
 <script>
-// Expand sections
-function toggleExpand(header) {
-    header.parentElement.classList.toggle('open');
+// Mobile Menu Toggle
+document.getElementById('menuBtn').addEventListener('click', function() {
+    var nav = document.getElementById('mobileNav');
+    if (nav.classList.contains('show')) {
+        nav.classList.remove('show');
+        this.textContent = '☰ Menu';
+    } else {
+        nav.classList.add('show');
+        this.textContent = '✕ Close';
+    }
+});
+
+// Close mobile menu when clicking a link
+document.querySelectorAll('.mobile-nav a').forEach(function(link) {
+    link.addEventListener('click', function() {
+        document.getElementById('mobileNav').classList.remove('show');
+        document.getElementById('menuBtn').textContent = '☰ Menu';
+    });
+});
+
+// Read More Toggle
+function toggleMore(id, btn) {
+    var el = document.getElementById(id);
+    if (el.classList.contains('show')) {
+        el.classList.remove('show');
+        btn.textContent = 'Read More ▼';
+    } else {
+        el.classList.add('show');
+        btn.textContent = 'Show Less ▲';
+    }
 }
 
-// FAQ accordion
-function toggleFaq(btn) {
-    btn.parentElement.classList.toggle('open');
+// Accordion Toggle
+function toggleAcc(el) {
+    el.classList.toggle('open');
 }
 
-// Read more in product cards
-function toggleReadMore(btn) {
-    const content = btn.previousElementSibling;
-    content.classList.toggle('open');
-    btn.textContent = content.classList.contains('open') ? 'Show Less ▲' : 'Read More ▼';
+// FAQ Toggle
+function toggleFaq(el) {
+    el.classList.toggle('open');
 }
 
-// Smooth scroll for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
+        var target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            const offset = 70;
+            var offset = 100;
             window.scrollTo({
                 top: target.offsetTop - offset,
                 behavior: 'smooth'
